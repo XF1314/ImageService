@@ -1,0 +1,1078 @@
+2019-01-09 11:23:00.314 +08:00 [INF] Starting web host.
+2019-01-09 11:23:02.317 +08:00 [INF] User profile is available. Using 'C:\Users\zhenglong\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-01-09 11:23:02.424 +08:00 [INF] Loaded modules:
+2019-01-09 11:23:02.424 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2019-01-09 11:23:02.424 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2019-01-09 11:23:02.424 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2019-01-09 11:23:02.424 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2019-01-09 11:23:02.424 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2019-01-09 11:23:02.424 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2019-01-09 11:23:02.424 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2019-01-09 11:23:02.424 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyAbstractionsModule
+2019-01-09 11:23:02.424 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2019-01-09 11:23:02.424 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2019-01-09 11:23:02.424 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2019-01-09 11:23:02.424 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2019-01-09 11:23:02.424 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2019-01-09 11:23:02.424 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2019-01-09 11:23:02.424 +08:00 [INF] - Ft.ImageServer.Core.ImageServerCoreModule
+2019-01-09 11:23:02.424 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2019-01-09 11:23:02.424 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2019-01-09 11:23:02.424 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2019-01-09 11:23:02.424 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2019-01-09 11:23:02.425 +08:00 [INF] - Volo.Abp.MongoDB.AbpMongoDbModule
+2019-01-09 11:23:02.425 +08:00 [INF] - Ft.ImageServer.MongoDB.ImageServerMongoDBModule
+2019-01-09 11:23:02.425 +08:00 [INF] - FT.ImageServer.Service.ImageServerServiceModule
+2019-01-09 11:23:02.425 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2019-01-09 11:23:02.425 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2019-01-09 11:23:02.425 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2019-01-09 11:23:02.425 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2019-01-09 11:23:02.425 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2019-01-09 11:23:02.425 +08:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
+2019-01-09 11:23:02.425 +08:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
+2019-01-09 11:23:02.425 +08:00 [INF] - Ft.ImageServer.Host.ImageServerHostModule
+2019-01-09 11:23:02.721 +08:00 [INF] Initialized all modules.
+2019-01-09 11:23:03.138 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:27293/Home/Index  
+2019-01-09 11:23:03.399 +08:00 [INF] Route matched with {action = "Index", controller = "Home", area = ""}. Executing action Ft.ImageServer.Host.Controllers.HomeController.Index (Ft.ImageServer.Host)
+2019-01-09 11:23:03.411 +08:00 [INF] Executing action method Ft.ImageServer.Host.Controllers.HomeController.Index (Ft.ImageServer.Host) - Validation state: "Valid"
+2019-01-09 11:23:03.420 +08:00 [INF] Executed action method Ft.ImageServer.Host.Controllers.HomeController.Index (Ft.ImageServer.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 0.3589ms.
+2019-01-09 11:23:03.427 +08:00 [INF] Executing RedirectResult, redirecting to /swagger.
+2019-01-09 11:23:03.430 +08:00 [INF] Executed action Ft.ImageServer.Host.Controllers.HomeController.Index (Ft.ImageServer.Host) in 28.622600000000002ms
+2019-01-09 11:23:03.464 +08:00 [INF] Request finished in 328.5779ms 302 
+2019-01-09 11:23:03.472 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:27293/swagger/index.html  
+2019-01-09 11:23:03.555 +08:00 [INF] Request finished in 82.2994ms 200 text/html
+2019-01-09 11:23:03.754 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:27293/swagger/ImageServer.json  
+2019-01-09 11:23:03.789 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:27293/swagger/swagger-ui-bundle.js.map  
+2019-01-09 11:23:04.007 +08:00 [INF] Request finished in 253.3143ms 200 application/json;charset=utf-8
+2019-01-09 11:23:04.267 +08:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js.map'. Physical path: 'N/A'
+2019-01-09 11:23:04.271 +08:00 [INF] Request finished in 481.7996ms 200 text/plain
+2019-01-09 11:23:04.271 +08:00 [INF] Request starting HTTP/1.1 HEAD http://localhost:27293/swagger/webpack.config.js  
+2019-01-09 11:23:04.272 +08:00 [INF] Request finished in 1.2496ms 404 
+2019-01-09 11:23:04.276 +08:00 [INF] Request starting HTTP/1.1 HEAD http://localhost:27293/webpack.config.js  
+2019-01-09 11:23:04.276 +08:00 [INF] Request finished in 0.5203ms 404 
+2019-01-09 11:23:05.640 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:27293/swagger/swagger-ui-standalone-preset.js.map  
+2019-01-09 11:23:05.773 +08:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js.map'. Physical path: 'N/A'
+2019-01-09 11:23:05.773 +08:00 [INF] Request finished in 133.6774ms 200 text/plain
+2019-01-09 11:23:05.785 +08:00 [INF] Request starting HTTP/1.1 HEAD http://localhost:27293/swagger/webpack.config.js  
+2019-01-09 11:23:05.786 +08:00 [INF] Request finished in 0.5375ms 404 
+2019-01-09 11:23:05.790 +08:00 [INF] Request starting HTTP/1.1 HEAD http://localhost:27293/webpack.config.js  
+2019-01-09 11:23:05.790 +08:00 [INF] Request finished in 0.3978ms 404 
+2019-01-09 11:23:34.176 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:27293/m/default/uribased application/json-patch+json 165
+2019-01-09 11:23:34.204 +08:00 [INF] Route matched with {action = "SaveImageToMongoDBByUriAsync", controller = "Image", area = ""}. Executing action Ft.ImageServer.Host.Controllers.ImageController.SaveImageToMongoDBByUriAsync (Ft.ImageServer.Host)
+2019-01-09 11:23:34.401 +08:00 [INF] Executing action method Ft.ImageServer.Host.Controllers.ImageController.SaveImageToMongoDBByUriAsync (Ft.ImageServer.Host) with arguments (["default","Ft.ImageServer.Application.Dtos.UriBasedImageInput"]) - Validation state: "Valid"
+2019-01-09 11:23:34.422 +08:00 [INF] Start processing HTTP request GET "https://image.fangte.com/UploadFiles/YearCard/HeadPhoto/577D62FD90BC6536EAE401C80F4073FC.jpg"
+2019-01-09 11:23:34.424 +08:00 [INF] Sending HTTP request GET "https://image.fangte.com/UploadFiles/YearCard/HeadPhoto/577D62FD90BC6536EAE401C80F4073FC.jpg"
+2019-01-09 11:23:34.851 +08:00 [INF] Received HTTP response after 425.55580000000003ms - "OK"
+2019-01-09 11:23:34.853 +08:00 [INF] End processing HTTP request after 433.1329ms - "OK"
+2019-01-09 11:23:40.550 +08:00 [INF] Executed action method Ft.ImageServer.Host.Controllers.ImageController.SaveImageToMongoDBByUriAsync (Ft.ImageServer.Host), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 6148.4666000000007ms.
+2019-01-09 11:23:40.579 +08:00 [INF] Executing ObjectResult, writing value of type 'Ft.ImageServer.Core.Result.Result`1[[Ft.ImageServer.Application.Dtos.MongoDBImageSaveOutput, Ft.ImageServer.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-01-09 11:23:40.590 +08:00 [INF] Executed action Ft.ImageServer.Host.Controllers.ImageController.SaveImageToMongoDBByUriAsync (Ft.ImageServer.Host) in 6386.7976ms
+2019-01-09 11:23:40.594 +08:00 [WRN] 处理耗时: 6415ms
+2019-01-09 11:23:40.595 +08:00 [INF] Request finished in 6419.245ms 200 application/json; charset=utf-8
+2019-01-09 11:25:47.363 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:27293/m/default/5c35693baba56c7f90686b54  
+2019-01-09 11:25:47.371 +08:00 [INF] Route matched with {action = "GetRawImageFromDefaultHostAsync", controller = "Image", area = ""}. Executing action Ft.ImageServer.Host.Controllers.ImageController.GetRawImageFromDefaultHostAsync (Ft.ImageServer.Host)
+2019-01-09 11:25:47.373 +08:00 [INF] Executing action method Ft.ImageServer.Host.Controllers.ImageController.GetRawImageFromDefaultHostAsync (Ft.ImageServer.Host) with arguments (["5c35693baba56c7f90686b54"]) - Validation state: "Valid"
+2019-01-09 11:25:47.502 +08:00 [INF] Executed action method Ft.ImageServer.Host.Controllers.ImageController.GetRawImageFromDefaultHostAsync (Ft.ImageServer.Host), returned result Microsoft.AspNetCore.Mvc.FileContentResult in 128.6896ms.
+2019-01-09 11:25:47.503 +08:00 [INF] Executing Microsoft.AspNetCore.Mvc.FileContentResult, sending file with download name '' ...
+2019-01-09 11:25:47.525 +08:00 [INF] Executed action Ft.ImageServer.Host.Controllers.ImageController.GetRawImageFromDefaultHostAsync (Ft.ImageServer.Host) in 154.2654ms
+2019-01-09 11:25:47.525 +08:00 [INF] Request finished in 162.3124ms 200 image/jpeg
+2019-01-09 11:26:05.191 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:27293/m/default/uribased application/json-patch+json 213
+2019-01-09 11:26:05.192 +08:00 [INF] Route matched with {action = "SaveImageToMongoDBByUriAsync", controller = "Image", area = ""}. Executing action Ft.ImageServer.Host.Controllers.ImageController.SaveImageToMongoDBByUriAsync (Ft.ImageServer.Host)
+2019-01-09 11:26:05.225 +08:00 [INF] Executing action method Ft.ImageServer.Host.Controllers.ImageController.SaveImageToMongoDBByUriAsync (Ft.ImageServer.Host) with arguments (["default","Ft.ImageServer.Application.Dtos.UriBasedImageInput"]) - Validation state: "Valid"
+2019-01-09 11:26:05.225 +08:00 [INF] Start processing HTTP request GET "https://image.fangte.com/UploadFiles/YearCard/HeadPhoto/577D62FD90BC6536EAE401C80F4073FC.jpg"
+2019-01-09 11:26:05.225 +08:00 [INF] Sending HTTP request GET "https://image.fangte.com/UploadFiles/YearCard/HeadPhoto/577D62FD90BC6536EAE401C80F4073FC.jpg"
+2019-01-09 11:26:05.339 +08:00 [INF] Received HTTP response after 113.99770000000001ms - "OK"
+2019-01-09 11:26:05.339 +08:00 [INF] End processing HTTP request after 114.28890000000001ms - "OK"
+2019-01-09 11:26:05.648 +08:00 [INF] Executed action method Ft.ImageServer.Host.Controllers.ImageController.SaveImageToMongoDBByUriAsync (Ft.ImageServer.Host), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 423.31ms.
+2019-01-09 11:26:05.649 +08:00 [INF] Executing ObjectResult, writing value of type 'Ft.ImageServer.Core.Result.Result`1[[Ft.ImageServer.Application.Dtos.MongoDBImageSaveOutput, Ft.ImageServer.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-01-09 11:26:05.649 +08:00 [INF] Executed action Ft.ImageServer.Host.Controllers.ImageController.SaveImageToMongoDBByUriAsync (Ft.ImageServer.Host) in 457.15470000000005ms
+2019-01-09 11:26:05.649 +08:00 [INF] Request finished in 458.4931ms 200 application/json; charset=utf-8
+2019-01-09 11:26:15.880 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:27293/m/default/5c35693baba56c7f90686b54  
+2019-01-09 11:26:15.880 +08:00 [INF] Route matched with {action = "GetRawImageFromDefaultHostAsync", controller = "Image", area = ""}. Executing action Ft.ImageServer.Host.Controllers.ImageController.GetRawImageFromDefaultHostAsync (Ft.ImageServer.Host)
+2019-01-09 11:26:15.881 +08:00 [INF] Executing action method Ft.ImageServer.Host.Controllers.ImageController.GetRawImageFromDefaultHostAsync (Ft.ImageServer.Host) with arguments (["5c35693baba56c7f90686b54"]) - Validation state: "Valid"
+2019-01-09 11:26:15.904 +08:00 [INF] Executed action method Ft.ImageServer.Host.Controllers.ImageController.GetRawImageFromDefaultHostAsync (Ft.ImageServer.Host), returned result Microsoft.AspNetCore.Mvc.FileContentResult in 22.781200000000002ms.
+2019-01-09 11:26:15.904 +08:00 [INF] Executing Microsoft.AspNetCore.Mvc.FileContentResult, sending file with download name '' ...
+2019-01-09 11:26:15.906 +08:00 [INF] Executed action Ft.ImageServer.Host.Controllers.ImageController.GetRawImageFromDefaultHostAsync (Ft.ImageServer.Host) in 25.985300000000002ms
+2019-01-09 11:26:15.906 +08:00 [INF] Request finished in 26.7496ms 200 image/jpeg
+2019-01-09 11:26:28.256 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:27293/m/default/uribased application/json-patch+json 213
+2019-01-09 11:26:28.257 +08:00 [INF] Route matched with {action = "SaveImageToMongoDBByUriAsync", controller = "Image", area = ""}. Executing action Ft.ImageServer.Host.Controllers.ImageController.SaveImageToMongoDBByUriAsync (Ft.ImageServer.Host)
+2019-01-09 11:26:28.258 +08:00 [INF] Executing action method Ft.ImageServer.Host.Controllers.ImageController.SaveImageToMongoDBByUriAsync (Ft.ImageServer.Host) with arguments (["default","Ft.ImageServer.Application.Dtos.UriBasedImageInput"]) - Validation state: "Valid"
+2019-01-09 11:26:28.258 +08:00 [INF] Start processing HTTP request GET "https://image.fangte.com/UploadFiles/YearCard/HeadPhoto/577D62FD90BC6536EAE401C80F4073FC.jpg"
+2019-01-09 11:26:28.258 +08:00 [INF] Sending HTTP request GET "https://image.fangte.com/UploadFiles/YearCard/HeadPhoto/577D62FD90BC6536EAE401C80F4073FC.jpg"
+2019-01-09 11:26:28.341 +08:00 [INF] Received HTTP response after 83.65140000000001ms - "OK"
+2019-01-09 11:26:28.342 +08:00 [INF] End processing HTTP request after 84.007ms - "OK"
+2019-01-09 11:26:28.571 +08:00 [INF] Executed action method Ft.ImageServer.Host.Controllers.ImageController.SaveImageToMongoDBByUriAsync (Ft.ImageServer.Host), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 312.9143ms.
+2019-01-09 11:26:28.572 +08:00 [INF] Executing ObjectResult, writing value of type 'Ft.ImageServer.Core.Result.Result`1[[Ft.ImageServer.Application.Dtos.MongoDBImageSaveOutput, Ft.ImageServer.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-01-09 11:26:28.572 +08:00 [INF] Executed action Ft.ImageServer.Host.Controllers.ImageController.SaveImageToMongoDBByUriAsync (Ft.ImageServer.Host) in 315.12600000000003ms
+2019-01-09 11:26:28.572 +08:00 [INF] Request finished in 315.9395ms 200 application/json; charset=utf-8
+2019-01-09 11:46:12.843 +08:00 [INF] Starting web host.
+2019-01-09 11:46:14.525 +08:00 [INF] User profile is available. Using 'C:\Users\zhenglong\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-01-09 11:46:14.613 +08:00 [INF] Loaded modules:
+2019-01-09 11:46:14.613 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2019-01-09 11:46:14.613 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2019-01-09 11:46:14.613 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2019-01-09 11:46:14.614 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2019-01-09 11:46:14.614 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2019-01-09 11:46:14.614 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2019-01-09 11:46:14.614 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2019-01-09 11:46:14.614 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyAbstractionsModule
+2019-01-09 11:46:14.614 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2019-01-09 11:46:14.614 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2019-01-09 11:46:14.614 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2019-01-09 11:46:14.614 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2019-01-09 11:46:14.614 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2019-01-09 11:46:14.614 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2019-01-09 11:46:14.614 +08:00 [INF] - Ft.ImageServer.Core.ImageServerCoreModule
+2019-01-09 11:46:14.614 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2019-01-09 11:46:14.614 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2019-01-09 11:46:14.614 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2019-01-09 11:46:14.615 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2019-01-09 11:46:14.615 +08:00 [INF] - Volo.Abp.MongoDB.AbpMongoDbModule
+2019-01-09 11:46:14.615 +08:00 [INF] - Ft.ImageServer.MongoDB.ImageServerMongoDBModule
+2019-01-09 11:46:14.615 +08:00 [INF] - FT.ImageServer.Service.ImageServerServiceModule
+2019-01-09 11:46:14.615 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2019-01-09 11:46:14.615 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2019-01-09 11:46:14.615 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2019-01-09 11:46:14.615 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2019-01-09 11:46:14.615 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2019-01-09 11:46:14.615 +08:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
+2019-01-09 11:46:14.615 +08:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
+2019-01-09 11:46:14.615 +08:00 [INF] - Ft.ImageServer.Host.ImageServerHostModule
+2019-01-09 11:46:14.894 +08:00 [INF] Initialized all modules.
+2019-01-09 11:46:15.334 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:27293/Home/Index  
+2019-01-09 11:46:15.604 +08:00 [INF] Route matched with {action = "Index", controller = "Home", area = ""}. Executing action Ft.ImageServer.Host.Controllers.HomeController.Index (Ft.ImageServer.Host)
+2019-01-09 11:46:15.614 +08:00 [INF] Executing action method Ft.ImageServer.Host.Controllers.HomeController.Index (Ft.ImageServer.Host) - Validation state: "Valid"
+2019-01-09 11:46:15.620 +08:00 [INF] Executed action method Ft.ImageServer.Host.Controllers.HomeController.Index (Ft.ImageServer.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 0.2378ms.
+2019-01-09 11:46:15.625 +08:00 [INF] Executing RedirectResult, redirecting to /swagger.
+2019-01-09 11:46:15.628 +08:00 [INF] Executed action Ft.ImageServer.Host.Controllers.HomeController.Index (Ft.ImageServer.Host) in 21.9164ms
+2019-01-09 11:46:15.661 +08:00 [INF] Request finished in 328.5788ms 302 
+2019-01-09 11:46:15.670 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:27293/swagger/index.html  
+2019-01-09 11:46:15.748 +08:00 [INF] Request finished in 78.4035ms 200 text/html
+2019-01-09 11:46:15.946 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:27293/swagger/ImageServer.json  
+2019-01-09 11:46:15.984 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:27293/swagger/swagger-ui-bundle.js.map  
+2019-01-09 11:46:16.236 +08:00 [INF] Request finished in 290.3758ms 200 application/json;charset=utf-8
+2019-01-09 11:46:16.420 +08:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js.map'. Physical path: 'N/A'
+2019-01-09 11:46:16.425 +08:00 [INF] Request finished in 440.4799ms 200 text/plain
+2019-01-09 11:46:16.432 +08:00 [INF] Request starting HTTP/1.1 HEAD http://localhost:27293/swagger/webpack.config.js  
+2019-01-09 11:46:16.433 +08:00 [INF] Request finished in 1.3009ms 404 
+2019-01-09 11:46:16.436 +08:00 [INF] Request starting HTTP/1.1 HEAD http://localhost:27293/webpack.config.js  
+2019-01-09 11:46:16.437 +08:00 [INF] Request finished in 0.6124ms 404 
+2019-01-09 11:46:17.901 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:27293/swagger/swagger-ui-standalone-preset.js.map  
+2019-01-09 11:46:17.989 +08:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js.map'. Physical path: 'N/A'
+2019-01-09 11:46:17.989 +08:00 [INF] Request finished in 88.6573ms 200 text/plain
+2019-01-09 11:46:18.002 +08:00 [INF] Request starting HTTP/1.1 HEAD http://localhost:27293/swagger/webpack.config.js  
+2019-01-09 11:46:18.002 +08:00 [INF] Request finished in 0.5901ms 404 
+2019-01-09 11:46:18.005 +08:00 [INF] Request starting HTTP/1.1 HEAD http://localhost:27293/webpack.config.js  
+2019-01-09 11:46:18.005 +08:00 [INF] Request finished in 0.4871ms 404 
+2019-01-09 11:49:49.628 +08:00 [INF] Starting web host.
+2019-01-09 11:49:51.209 +08:00 [INF] User profile is available. Using 'C:\Users\zhenglong\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-01-09 11:49:51.300 +08:00 [INF] Loaded modules:
+2019-01-09 11:49:51.300 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2019-01-09 11:49:51.300 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2019-01-09 11:49:51.300 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2019-01-09 11:49:51.300 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2019-01-09 11:49:51.300 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2019-01-09 11:49:51.300 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2019-01-09 11:49:51.300 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2019-01-09 11:49:51.300 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyAbstractionsModule
+2019-01-09 11:49:51.301 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2019-01-09 11:49:51.301 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2019-01-09 11:49:51.301 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2019-01-09 11:49:51.301 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2019-01-09 11:49:51.301 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2019-01-09 11:49:51.301 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2019-01-09 11:49:51.301 +08:00 [INF] - Ft.ImageServer.Core.ImageServerCoreModule
+2019-01-09 11:49:51.301 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2019-01-09 11:49:51.301 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2019-01-09 11:49:51.301 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2019-01-09 11:49:51.301 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2019-01-09 11:49:51.301 +08:00 [INF] - Volo.Abp.MongoDB.AbpMongoDbModule
+2019-01-09 11:49:51.301 +08:00 [INF] - Ft.ImageServer.MongoDB.ImageServerMongoDBModule
+2019-01-09 11:49:51.301 +08:00 [INF] - FT.ImageServer.Service.ImageServerServiceModule
+2019-01-09 11:49:51.301 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2019-01-09 11:49:51.302 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2019-01-09 11:49:51.302 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2019-01-09 11:49:51.302 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2019-01-09 11:49:51.302 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2019-01-09 11:49:51.302 +08:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
+2019-01-09 11:49:51.302 +08:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
+2019-01-09 11:49:51.302 +08:00 [INF] - Ft.ImageServer.Host.ImageServerHostModule
+2019-01-09 11:49:51.540 +08:00 [INF] Initialized all modules.
+2019-01-09 11:49:51.836 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:27293/Home/Index  
+2019-01-09 11:49:52.073 +08:00 [INF] Route matched with {action = "Index", controller = "Home", area = ""}. Executing action Ft.ImageServer.Host.Controllers.HomeController.Index (Ft.ImageServer.Host)
+2019-01-09 11:49:52.082 +08:00 [INF] Executing action method Ft.ImageServer.Host.Controllers.HomeController.Index (Ft.ImageServer.Host) - Validation state: "Valid"
+2019-01-09 11:49:52.089 +08:00 [INF] Executed action method Ft.ImageServer.Host.Controllers.HomeController.Index (Ft.ImageServer.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 0.24930000000000002ms.
+2019-01-09 11:49:52.094 +08:00 [INF] Executing RedirectResult, redirecting to /swagger.
+2019-01-09 11:49:52.097 +08:00 [INF] Executed action Ft.ImageServer.Host.Controllers.HomeController.Index (Ft.ImageServer.Host) in 21.979200000000002ms
+2019-01-09 11:49:52.119 +08:00 [INF] Request finished in 284.7393ms 302 
+2019-01-09 11:49:52.128 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:27293/swagger/index.html  
+2019-01-09 11:49:52.200 +08:00 [INF] Request finished in 72.3997ms 200 text/html
+2019-01-09 11:49:52.382 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:27293/swagger/ImageServer.json  
+2019-01-09 11:49:52.447 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:27293/swagger/swagger-ui-bundle.js.map  
+2019-01-09 11:49:52.652 +08:00 [INF] Request finished in 269.8692ms 200 application/json;charset=utf-8
+2019-01-09 11:49:52.893 +08:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js.map'. Physical path: 'N/A'
+2019-01-09 11:49:52.897 +08:00 [INF] Request finished in 449.7398ms 200 text/plain
+2019-01-09 11:49:52.910 +08:00 [INF] Request starting HTTP/1.1 HEAD http://localhost:27293/swagger/webpack.config.js  
+2019-01-09 11:49:52.911 +08:00 [INF] Request finished in 1.0788ms 404 
+2019-01-09 11:49:52.913 +08:00 [INF] Request starting HTTP/1.1 HEAD http://localhost:27293/webpack.config.js  
+2019-01-09 11:49:52.914 +08:00 [INF] Request finished in 0.5252ms 404 
+2019-01-09 11:49:54.250 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:27293/swagger/swagger-ui-standalone-preset.js.map  
+2019-01-09 11:49:54.390 +08:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js.map'. Physical path: 'N/A'
+2019-01-09 11:49:54.390 +08:00 [INF] Request finished in 140.8149ms 200 text/plain
+2019-01-09 11:49:54.406 +08:00 [INF] Request starting HTTP/1.1 HEAD http://localhost:27293/swagger/webpack.config.js  
+2019-01-09 11:49:54.406 +08:00 [INF] Request finished in 0.53ms 404 
+2019-01-09 11:49:54.408 +08:00 [INF] Request starting HTTP/1.1 HEAD http://localhost:27293/webpack.config.js  
+2019-01-09 11:49:54.409 +08:00 [INF] Request finished in 0.8542ms 404 
+2019-01-09 11:57:06.102 +08:00 [INF] Starting web host.
+2019-01-09 11:57:07.806 +08:00 [INF] User profile is available. Using 'C:\Users\zhenglong\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-01-09 11:57:07.896 +08:00 [INF] Loaded modules:
+2019-01-09 11:57:07.896 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2019-01-09 11:57:07.896 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2019-01-09 11:57:07.896 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2019-01-09 11:57:07.896 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2019-01-09 11:57:07.896 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2019-01-09 11:57:07.896 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2019-01-09 11:57:07.897 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2019-01-09 11:57:07.897 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyAbstractionsModule
+2019-01-09 11:57:07.897 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2019-01-09 11:57:07.897 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2019-01-09 11:57:07.897 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2019-01-09 11:57:07.897 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2019-01-09 11:57:07.897 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2019-01-09 11:57:07.897 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2019-01-09 11:57:07.897 +08:00 [INF] - Ft.ImageServer.Core.ImageServerCoreModule
+2019-01-09 11:57:07.897 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2019-01-09 11:57:07.897 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2019-01-09 11:57:07.897 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2019-01-09 11:57:07.897 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2019-01-09 11:57:07.897 +08:00 [INF] - Volo.Abp.MongoDB.AbpMongoDbModule
+2019-01-09 11:57:07.898 +08:00 [INF] - Ft.ImageServer.MongoDB.ImageServerMongoDBModule
+2019-01-09 11:57:07.898 +08:00 [INF] - FT.ImageServer.Service.ImageServerServiceModule
+2019-01-09 11:57:07.898 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2019-01-09 11:57:07.898 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2019-01-09 11:57:07.898 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2019-01-09 11:57:07.898 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2019-01-09 11:57:07.898 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2019-01-09 11:57:07.898 +08:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
+2019-01-09 11:57:07.898 +08:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
+2019-01-09 11:57:07.898 +08:00 [INF] - Ft.ImageServer.Host.ImageServerHostModule
+2019-01-09 11:57:08.153 +08:00 [INF] Initialized all modules.
+2019-01-09 11:57:08.494 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:27293/Home/Index  
+2019-01-09 11:57:08.756 +08:00 [INF] Route matched with {action = "Index", controller = "Home", area = ""}. Executing action Ft.ImageServer.Host.Controllers.HomeController.Index (Ft.ImageServer.Host)
+2019-01-09 11:57:08.765 +08:00 [INF] Executing action method Ft.ImageServer.Host.Controllers.HomeController.Index (Ft.ImageServer.Host) - Validation state: "Valid"
+2019-01-09 11:57:08.772 +08:00 [INF] Executed action method Ft.ImageServer.Host.Controllers.HomeController.Index (Ft.ImageServer.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 0.2888ms.
+2019-01-09 11:57:08.778 +08:00 [INF] Executing RedirectResult, redirecting to /swagger.
+2019-01-09 11:57:08.781 +08:00 [INF] Executed action Ft.ImageServer.Host.Controllers.HomeController.Index (Ft.ImageServer.Host) in 22.5198ms
+2019-01-09 11:57:08.804 +08:00 [INF] Request finished in 311.6161ms 302 
+2019-01-09 11:57:08.818 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:27293/swagger/index.html  
+2019-01-09 11:57:08.901 +08:00 [INF] Request finished in 83.1833ms 200 text/html
+2019-01-09 11:57:09.085 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:27293/swagger/ImageServer.json  
+2019-01-09 11:57:09.144 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:27293/swagger/swagger-ui-bundle.js.map  
+2019-01-09 11:57:09.301 +08:00 [INF] Request finished in 215.3693ms 200 application/json;charset=utf-8
+2019-01-09 11:57:09.463 +08:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js.map'. Physical path: 'N/A'
+2019-01-09 11:57:09.467 +08:00 [INF] Request finished in 323.4821ms 200 text/plain
+2019-01-09 11:57:09.489 +08:00 [INF] Request starting HTTP/1.1 HEAD http://localhost:27293/swagger/webpack.config.js  
+2019-01-09 11:57:09.490 +08:00 [INF] Request finished in 1.0585ms 404 
+2019-01-09 11:57:09.493 +08:00 [INF] Request starting HTTP/1.1 HEAD http://localhost:27293/webpack.config.js  
+2019-01-09 11:57:09.494 +08:00 [INF] Request finished in 0.5858ms 404 
+2019-01-09 11:57:10.795 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:27293/swagger/swagger-ui-standalone-preset.js.map  
+2019-01-09 11:57:10.883 +08:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js.map'. Physical path: 'N/A'
+2019-01-09 11:57:10.883 +08:00 [INF] Request finished in 88.9148ms 200 text/plain
+2019-01-09 11:57:10.895 +08:00 [INF] Request starting HTTP/1.1 HEAD http://localhost:27293/swagger/webpack.config.js  
+2019-01-09 11:57:10.895 +08:00 [INF] Request finished in 0.4645ms 404 
+2019-01-09 11:57:10.897 +08:00 [INF] Request starting HTTP/1.1 HEAD http://localhost:27293/webpack.config.js  
+2019-01-09 11:57:10.897 +08:00 [INF] Request finished in 0.3154ms 404 
+2019-01-09 13:38:22.670 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:27293/m/default/uribased application/json-patch+json 211
+2019-01-09 13:38:22.696 +08:00 [INF] Route matched with {action = "SaveImageToMongoDBByUriAsync", controller = "Image", area = ""}. Executing action Ft.ImageServer.Host.Controllers.ImageController.SaveImageToMongoDBByUriAsync (Ft.ImageServer.Host)
+2019-01-09 13:38:22.898 +08:00 [INF] Executing action method Ft.ImageServer.Host.Controllers.ImageController.SaveImageToMongoDBByUriAsync (Ft.ImageServer.Host) with arguments (["default","Ft.ImageServer.Application.Dtos.UriBasedImageInput"]) - Validation state: "Valid"
+2019-01-09 13:38:22.917 +08:00 [INF] Start processing HTTP request GET "https://image.fangte.com/UploadFiles/YearCard/HeadPhoto/3B41DA90F222A72A78D951CCFA2A73C0.jpg"
+2019-01-09 13:38:22.918 +08:00 [INF] Sending HTTP request GET "https://image.fangte.com/UploadFiles/YearCard/HeadPhoto/3B41DA90F222A72A78D951CCFA2A73C0.jpg"
+2019-01-09 13:38:23.396 +08:00 [INF] Received HTTP response after 475.14500000000004ms - "OK"
+2019-01-09 13:38:23.397 +08:00 [INF] End processing HTTP request after 482.14910000000003ms - "OK"
+2019-01-09 13:38:24.973 +08:00 [INF] Executed action method Ft.ImageServer.Host.Controllers.ImageController.SaveImageToMongoDBByUriAsync (Ft.ImageServer.Host), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 2074.2989000000002ms.
+2019-01-09 13:38:24.984 +08:00 [INF] Executing ObjectResult, writing value of type 'Ft.ImageServer.Core.Result.Result`1[[Ft.ImageServer.Application.Dtos.MongoDBImageSaveOutput, Ft.ImageServer.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-01-09 13:38:24.995 +08:00 [INF] Executed action Ft.ImageServer.Host.Controllers.ImageController.SaveImageToMongoDBByUriAsync (Ft.ImageServer.Host) in 2299.3256ms
+2019-01-09 13:38:25.003 +08:00 [INF] Request finished in 2332.1872ms 200 application/json; charset=utf-8
+2019-01-09 13:38:50.785 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:27293/m/default/5c3588d0546b234824172867  
+2019-01-09 13:38:50.795 +08:00 [INF] Route matched with {action = "GetRawImageAsync", controller = "Image", area = ""}. Executing action Ft.ImageServer.Host.Controllers.ImageController.GetRawImageAsync (Ft.ImageServer.Host)
+2019-01-09 13:38:50.797 +08:00 [INF] Executing action method Ft.ImageServer.Host.Controllers.ImageController.GetRawImageAsync (Ft.ImageServer.Host) with arguments (["default","5c3588d0546b234824172867"]) - Validation state: "Valid"
+2019-01-09 13:38:50.956 +08:00 [INF] Executed action method Ft.ImageServer.Host.Controllers.ImageController.GetRawImageAsync (Ft.ImageServer.Host), returned result Microsoft.AspNetCore.Mvc.FileContentResult in 158.4913ms.
+2019-01-09 13:38:50.957 +08:00 [INF] Executing Microsoft.AspNetCore.Mvc.FileContentResult, sending file with download name '' ...
+2019-01-09 13:38:51.024 +08:00 [INF] Executed action Ft.ImageServer.Host.Controllers.ImageController.GetRawImageAsync (Ft.ImageServer.Host) in 229.68210000000002ms
+2019-01-09 13:38:51.025 +08:00 [INF] Request finished in 239.4672ms 200 image/jpeg
+2019-01-09 13:39:02.370 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:27293/m/default/uribased application/json-patch+json 211
+2019-01-09 13:39:02.371 +08:00 [INF] Route matched with {action = "SaveImageToMongoDBByUriAsync", controller = "Image", area = ""}. Executing action Ft.ImageServer.Host.Controllers.ImageController.SaveImageToMongoDBByUriAsync (Ft.ImageServer.Host)
+2019-01-09 13:39:02.379 +08:00 [INF] Executing action method Ft.ImageServer.Host.Controllers.ImageController.SaveImageToMongoDBByUriAsync (Ft.ImageServer.Host) with arguments (["default","Ft.ImageServer.Application.Dtos.UriBasedImageInput"]) - Validation state: "Valid"
+2019-01-09 13:39:02.380 +08:00 [INF] Start processing HTTP request GET "https://image.fangte.com/UploadFiles/YearCard/HeadPhoto/3B41DA90F222A72A78D951CCFA2A73C0.jpg"
+2019-01-09 13:39:02.380 +08:00 [INF] Sending HTTP request GET "https://image.fangte.com/UploadFiles/YearCard/HeadPhoto/3B41DA90F222A72A78D951CCFA2A73C0.jpg"
+2019-01-09 13:39:02.417 +08:00 [INF] Received HTTP response after 37.1055ms - "OK"
+2019-01-09 13:39:02.417 +08:00 [INF] End processing HTTP request after 37.496700000000004ms - "OK"
+2019-01-09 13:39:02.777 +08:00 [INF] Executed action method Ft.ImageServer.Host.Controllers.ImageController.SaveImageToMongoDBByUriAsync (Ft.ImageServer.Host), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 397.88370000000003ms.
+2019-01-09 13:39:02.778 +08:00 [INF] Executing ObjectResult, writing value of type 'Ft.ImageServer.Core.Result.Result`1[[Ft.ImageServer.Application.Dtos.MongoDBImageSaveOutput, Ft.ImageServer.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-01-09 13:39:02.778 +08:00 [INF] Executed action Ft.ImageServer.Host.Controllers.ImageController.SaveImageToMongoDBByUriAsync (Ft.ImageServer.Host) in 407.2839ms
+2019-01-09 13:39:02.779 +08:00 [INF] Request finished in 409.069ms 200 application/json; charset=utf-8
+2019-01-09 13:40:04.552 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:27293/m/default/uribased application/json-patch+json 219
+2019-01-09 13:40:04.554 +08:00 [INF] Route matched with {action = "SaveImageToMongoDBByUriAsync", controller = "Image", area = ""}. Executing action Ft.ImageServer.Host.Controllers.ImageController.SaveImageToMongoDBByUriAsync (Ft.ImageServer.Host)
+2019-01-09 13:40:04.581 +08:00 [INF] Executing action method Ft.ImageServer.Host.Controllers.ImageController.SaveImageToMongoDBByUriAsync (Ft.ImageServer.Host) with arguments (["default","Ft.ImageServer.Application.Dtos.UriBasedImageInput"]) - Validation state: "Valid"
+2019-01-09 13:40:04.581 +08:00 [INF] Start processing HTTP request GET "https://image.fangte.com/UploadFiles/YearCard/HeadPhoto/3B41DA90F222A72A78D951CCFA2A73C0.jpg"
+2019-01-09 13:40:04.581 +08:00 [INF] Sending HTTP request GET "https://image.fangte.com/UploadFiles/YearCard/HeadPhoto/3B41DA90F222A72A78D951CCFA2A73C0.jpg"
+2019-01-09 13:40:04.657 +08:00 [INF] Received HTTP response after 75.705800000000011ms - "OK"
+2019-01-09 13:40:04.657 +08:00 [INF] End processing HTTP request after 76.0644ms - "OK"
+2019-01-09 13:40:05.141 +08:00 [INF] Executed action method Ft.ImageServer.Host.Controllers.ImageController.SaveImageToMongoDBByUriAsync (Ft.ImageServer.Host), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 558.9018ms.
+2019-01-09 13:40:05.141 +08:00 [INF] Executing ObjectResult, writing value of type 'Ft.ImageServer.Core.Result.Result`1[[Ft.ImageServer.Application.Dtos.MongoDBImageSaveOutput, Ft.ImageServer.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-01-09 13:40:05.141 +08:00 [INF] Executed action Ft.ImageServer.Host.Controllers.ImageController.SaveImageToMongoDBByUriAsync (Ft.ImageServer.Host) in 586.6087ms
+2019-01-09 13:40:05.142 +08:00 [INF] Request finished in 589.5623ms 200 application/json; charset=utf-8
+2019-01-09 13:40:19.061 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:27293/m/default/5c3588d0546b234824172867  
+2019-01-09 13:40:19.062 +08:00 [INF] Route matched with {action = "GetRawImageAsync", controller = "Image", area = ""}. Executing action Ft.ImageServer.Host.Controllers.ImageController.GetRawImageAsync (Ft.ImageServer.Host)
+2019-01-09 13:40:19.063 +08:00 [INF] Executing action method Ft.ImageServer.Host.Controllers.ImageController.GetRawImageAsync (Ft.ImageServer.Host) with arguments (["default","5c3588d0546b234824172867"]) - Validation state: "Valid"
+2019-01-09 13:40:19.090 +08:00 [INF] Executed action method Ft.ImageServer.Host.Controllers.ImageController.GetRawImageAsync (Ft.ImageServer.Host), returned result Microsoft.AspNetCore.Mvc.FileContentResult in 27.393500000000003ms.
+2019-01-09 13:40:19.091 +08:00 [INF] Executing Microsoft.AspNetCore.Mvc.FileContentResult, sending file with download name '' ...
+2019-01-09 13:40:19.098 +08:00 [INF] Executed action Ft.ImageServer.Host.Controllers.ImageController.GetRawImageAsync (Ft.ImageServer.Host) in 35.624900000000004ms
+2019-01-09 13:40:19.098 +08:00 [INF] Request finished in 36.6681ms 200 image/jpeg
+2019-01-09 13:41:10.876 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:27293/m/default/5c3588d0546b234824172867/h-B44C8F7684DA6C6178666C411162E478/100  
+2019-01-09 13:41:10.884 +08:00 [INF] Route matched with {action = "GetImageFromMongoDBWithoutOptionsAsync", controller = "Image", area = ""}. Executing action Ft.ImageServer.Host.Controllers.ImageController.GetImageFromMongoDBWithoutOptionsAsync (Ft.ImageServer.Host)
+2019-01-09 13:41:10.894 +08:00 [INF] Executing action method Ft.ImageServer.Host.Controllers.ImageController.GetImageFromMongoDBWithoutOptionsAsync (Ft.ImageServer.Host) with arguments (["default","5c3588d0546b234824172867","B44C8F7684DA6C6178666C411162E478","100"]) - Validation state: "Valid"
+2019-01-09 13:41:11.104 +08:00 [INF] Executed action method Ft.ImageServer.Host.Controllers.ImageController.GetImageFromMongoDBWithoutOptionsAsync (Ft.ImageServer.Host), returned result Microsoft.AspNetCore.Mvc.FileContentResult in 209.3706ms.
+2019-01-09 13:41:11.104 +08:00 [INF] Executing Microsoft.AspNetCore.Mvc.FileContentResult, sending file with download name '' ...
+2019-01-09 13:41:11.109 +08:00 [INF] Executed action Ft.ImageServer.Host.Controllers.ImageController.GetImageFromMongoDBWithoutOptionsAsync (Ft.ImageServer.Host) in 224.9615ms
+2019-01-09 13:41:11.109 +08:00 [INF] Request finished in 233.598ms 200 image/jpeg
+2019-01-09 14:00:37.850 +08:00 [INF] Starting web host.
+2019-01-09 14:00:39.470 +08:00 [INF] User profile is available. Using 'C:\Users\zhenglong\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-01-09 14:00:39.562 +08:00 [INF] Loaded modules:
+2019-01-09 14:00:39.562 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2019-01-09 14:00:39.562 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2019-01-09 14:00:39.562 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2019-01-09 14:00:39.562 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2019-01-09 14:00:39.562 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2019-01-09 14:00:39.562 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2019-01-09 14:00:39.562 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2019-01-09 14:00:39.563 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyAbstractionsModule
+2019-01-09 14:00:39.563 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2019-01-09 14:00:39.563 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2019-01-09 14:00:39.563 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2019-01-09 14:00:39.563 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2019-01-09 14:00:39.563 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2019-01-09 14:00:39.563 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2019-01-09 14:00:39.563 +08:00 [INF] - Ft.ImageServer.Core.ImageServerCoreModule
+2019-01-09 14:00:39.563 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2019-01-09 14:00:39.563 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2019-01-09 14:00:39.563 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2019-01-09 14:00:39.563 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2019-01-09 14:00:39.563 +08:00 [INF] - Volo.Abp.MongoDB.AbpMongoDbModule
+2019-01-09 14:00:39.563 +08:00 [INF] - Ft.ImageServer.MongoDB.ImageServerMongoDBModule
+2019-01-09 14:00:39.563 +08:00 [INF] - FT.ImageServer.Service.ImageServerServiceModule
+2019-01-09 14:00:39.564 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2019-01-09 14:00:39.564 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2019-01-09 14:00:39.564 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2019-01-09 14:00:39.564 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2019-01-09 14:00:39.564 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2019-01-09 14:00:39.564 +08:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
+2019-01-09 14:00:39.564 +08:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
+2019-01-09 14:00:39.564 +08:00 [INF] - Ft.ImageServer.Host.ImageServerHostModule
+2019-01-09 14:00:39.806 +08:00 [INF] Initialized all modules.
+2019-01-09 14:00:40.001 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:27293/Home/Index  
+2019-01-09 14:00:40.256 +08:00 [INF] Route matched with {action = "Index", controller = "Home", area = ""}. Executing action Ft.ImageServer.Host.Controllers.HomeController.Index (Ft.ImageServer.Host)
+2019-01-09 14:00:40.265 +08:00 [INF] Executing action method Ft.ImageServer.Host.Controllers.HomeController.Index (Ft.ImageServer.Host) - Validation state: "Valid"
+2019-01-09 14:00:40.271 +08:00 [INF] Executed action method Ft.ImageServer.Host.Controllers.HomeController.Index (Ft.ImageServer.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 0.23390000000000002ms.
+2019-01-09 14:00:40.276 +08:00 [INF] Executing RedirectResult, redirecting to /swagger.
+2019-01-09 14:00:40.279 +08:00 [INF] Executed action Ft.ImageServer.Host.Controllers.HomeController.Index (Ft.ImageServer.Host) in 20.194300000000002ms
+2019-01-09 14:00:40.302 +08:00 [INF] Request finished in 302.4682ms 302 
+2019-01-09 14:00:40.308 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:27293/swagger/index.html  
+2019-01-09 14:00:40.380 +08:00 [INF] Request finished in 71.4238ms 200 text/html
+2019-01-09 14:00:40.583 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:27293/swagger/ImageServer.json  
+2019-01-09 14:00:40.612 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:27293/swagger/swagger-ui-bundle.js.map  
+2019-01-09 14:00:40.819 +08:00 [INF] Request finished in 235.4761ms 200 application/json;charset=utf-8
+2019-01-09 14:00:40.890 +08:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js.map'. Physical path: 'N/A'
+2019-01-09 14:00:40.893 +08:00 [INF] Request starting HTTP/1.1 HEAD http://localhost:27293/swagger/webpack.config.js  
+2019-01-09 14:00:40.894 +08:00 [INF] Request finished in 1.2704ms 404 
+2019-01-09 14:00:40.894 +08:00 [INF] Request finished in 282.1171ms 200 text/plain
+2019-01-09 14:00:40.897 +08:00 [INF] Request starting HTTP/1.1 HEAD http://localhost:27293/webpack.config.js  
+2019-01-09 14:00:40.898 +08:00 [INF] Request finished in 1.7615ms 404 
+2019-01-09 14:00:42.210 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:27293/swagger/swagger-ui-standalone-preset.js.map  
+2019-01-09 14:00:42.287 +08:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js.map'. Physical path: 'N/A'
+2019-01-09 14:00:42.287 +08:00 [INF] Request finished in 77.4816ms 200 text/plain
+2019-01-09 14:00:42.298 +08:00 [INF] Request starting HTTP/1.1 HEAD http://localhost:27293/swagger/webpack.config.js  
+2019-01-09 14:00:42.298 +08:00 [INF] Request finished in 0.4838ms 404 
+2019-01-09 14:00:42.300 +08:00 [INF] Request starting HTTP/1.1 HEAD http://localhost:27293/webpack.config.js  
+2019-01-09 14:00:42.301 +08:00 [INF] Request finished in 0.4108ms 404 
+2019-01-09 14:01:35.926 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:27293/5c3588d0546b234824172867  
+2019-01-09 14:01:35.956 +08:00 [INF] Route matched with {action = "GetRawImageAsync", controller = "DefaultHostImage", area = ""}. Executing action Ft.ImageServer.Host.Controllers.DefaultHostImageController.GetRawImageAsync (Ft.ImageServer.Host)
+2019-01-09 14:01:35.958 +08:00 [INF] Executed action Ft.ImageServer.Host.Controllers.DefaultHostImageController.GetRawImageAsync (Ft.ImageServer.Host) in 1.3571ms
+2019-01-09 14:01:36.105 +08:00 [ERR] Connection id "0HLJLUV46BDG7", Request id "0HLJLUV46BDG7:00000004": An unhandled exception was thrown by the application.
+System.InvalidOperationException: Unable to resolve service for type 'Ft.ImageServer.Service.IImageService' while attempting to activate 'Ft.ImageServer.Host.Controllers.DefaultHostImageController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Ft.ImageServer.Host.Middlewares.ImageServerUnitOfWorkMiddleware.Invoke(HttpContext httpContext) in F:\Ft.ImageServer\Ft.ImageServer.Host\Middlewares\ImageServerUnitOfWorkMiddleware.cs:line 26
+   at Ft.ImageServer.Host.Middlewares.RequestUrlNormalizer.Invoke(HttpContext context) in F:\Ft.ImageServer\Ft.ImageServer.Host\Middlewares\RequestUrlNormalizer.cs:line 36
+   at Ft.ImageServer.Host.Middlewares.PerformanceCounter.Invoke(HttpContext context) in F:\Ft.ImageServer\Ft.ImageServer.Host\Middlewares\PerformanceCounter.cs:line 24
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2019-01-09 14:01:36.146 +08:00 [INF] Request finished in 220.1391ms 500 
+2019-01-09 14:02:44.340 +08:00 [INF] Starting web host.
+2019-01-09 14:02:46.025 +08:00 [INF] User profile is available. Using 'C:\Users\zhenglong\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-01-09 14:02:46.125 +08:00 [INF] Loaded modules:
+2019-01-09 14:02:46.126 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2019-01-09 14:02:46.126 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2019-01-09 14:02:46.126 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2019-01-09 14:02:46.126 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2019-01-09 14:02:46.126 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2019-01-09 14:02:46.126 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2019-01-09 14:02:46.126 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2019-01-09 14:02:46.126 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyAbstractionsModule
+2019-01-09 14:02:46.126 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2019-01-09 14:02:46.126 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2019-01-09 14:02:46.127 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2019-01-09 14:02:46.127 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2019-01-09 14:02:46.127 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2019-01-09 14:02:46.127 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2019-01-09 14:02:46.127 +08:00 [INF] - Ft.ImageServer.Core.ImageServerCoreModule
+2019-01-09 14:02:46.127 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2019-01-09 14:02:46.127 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2019-01-09 14:02:46.127 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2019-01-09 14:02:46.127 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2019-01-09 14:02:46.127 +08:00 [INF] - Volo.Abp.MongoDB.AbpMongoDbModule
+2019-01-09 14:02:46.127 +08:00 [INF] - Ft.ImageServer.MongoDB.ImageServerMongoDBModule
+2019-01-09 14:02:46.127 +08:00 [INF] - FT.ImageServer.Service.ImageServerServiceModule
+2019-01-09 14:02:46.127 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2019-01-09 14:02:46.127 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2019-01-09 14:02:46.128 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2019-01-09 14:02:46.128 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2019-01-09 14:02:46.128 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2019-01-09 14:02:46.128 +08:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
+2019-01-09 14:02:46.128 +08:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
+2019-01-09 14:02:46.128 +08:00 [INF] - Ft.ImageServer.Host.ImageServerHostModule
+2019-01-09 14:02:46.383 +08:00 [INF] Initialized all modules.
+2019-01-09 14:02:46.719 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:27293/Home/Index  
+2019-01-09 14:02:46.968 +08:00 [INF] Route matched with {action = "Index", controller = "Home", area = ""}. Executing action Ft.ImageServer.Host.Controllers.HomeController.Index (Ft.ImageServer.Host)
+2019-01-09 14:02:46.977 +08:00 [INF] Executing action method Ft.ImageServer.Host.Controllers.HomeController.Index (Ft.ImageServer.Host) - Validation state: "Valid"
+2019-01-09 14:02:46.983 +08:00 [INF] Executed action method Ft.ImageServer.Host.Controllers.HomeController.Index (Ft.ImageServer.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 0.2927ms.
+2019-01-09 14:02:46.988 +08:00 [INF] Executing RedirectResult, redirecting to /swagger.
+2019-01-09 14:02:46.991 +08:00 [INF] Executed action Ft.ImageServer.Host.Controllers.HomeController.Index (Ft.ImageServer.Host) in 20.6462ms
+2019-01-09 14:02:47.014 +08:00 [INF] Request finished in 296.6899ms 302 
+2019-01-09 14:02:47.023 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:27293/swagger/index.html  
+2019-01-09 14:02:47.098 +08:00 [INF] Request finished in 75.2078ms 200 text/html
+2019-01-09 14:02:47.283 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:27293/swagger/ImageServer.json  
+2019-01-09 14:02:47.320 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:27293/swagger/swagger-ui-bundle.js.map  
+2019-01-09 14:02:47.547 +08:00 [INF] Request finished in 264.1736ms 200 application/json;charset=utf-8
+2019-01-09 14:02:47.776 +08:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js.map'. Physical path: 'N/A'
+2019-01-09 14:02:47.779 +08:00 [INF] Request finished in 459.3561ms 200 text/plain
+2019-01-09 14:02:47.786 +08:00 [INF] Request starting HTTP/1.1 HEAD http://localhost:27293/swagger/webpack.config.js  
+2019-01-09 14:02:47.788 +08:00 [INF] Request finished in 1.8141ms 404 
+2019-01-09 14:02:47.792 +08:00 [INF] Request starting HTTP/1.1 HEAD http://localhost:27293/webpack.config.js  
+2019-01-09 14:02:47.793 +08:00 [INF] Request finished in 1.5756ms 404 
+2019-01-09 14:02:49.112 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:27293/swagger/swagger-ui-standalone-preset.js.map  
+2019-01-09 14:02:49.217 +08:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js.map'. Physical path: 'N/A'
+2019-01-09 14:02:49.217 +08:00 [INF] Request finished in 105.4221ms 200 text/plain
+2019-01-09 14:02:49.233 +08:00 [INF] Request starting HTTP/1.1 HEAD http://localhost:27293/swagger/webpack.config.js  
+2019-01-09 14:02:49.234 +08:00 [INF] Request finished in 0.5451ms 404 
+2019-01-09 14:02:49.237 +08:00 [INF] Request starting HTTP/1.1 HEAD http://localhost:27293/webpack.config.js  
+2019-01-09 14:02:49.238 +08:00 [INF] Request finished in 0.5656ms 404 
+2019-01-09 14:02:54.203 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:27293/5c3588d0546b234824172867  
+2019-01-09 14:02:54.242 +08:00 [INF] Route matched with {action = "GetRawImageAsync", controller = "DefaultHostImage", area = ""}. Executing action Ft.ImageServer.Host.Controllers.DefaultHostImageController.GetRawImageAsync (Ft.ImageServer.Host)
+2019-01-09 14:02:54.244 +08:00 [INF] Executed action Ft.ImageServer.Host.Controllers.DefaultHostImageController.GetRawImageAsync (Ft.ImageServer.Host) in 1.3622ms
+2019-01-09 14:02:54.337 +08:00 [ERR] Connection id "0HLJLV09UJI41", Request id "0HLJLV09UJI41:00000004": An unhandled exception was thrown by the application.
+System.InvalidOperationException: Unable to resolve service for type 'Ft.ImageServer.Service.IImageService' while attempting to activate 'Ft.ImageServer.Host.Controllers.DefaultHostImageController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Ft.ImageServer.Host.Middlewares.ImageServerUnitOfWorkMiddleware.Invoke(HttpContext httpContext) in F:\Ft.ImageServer\Ft.ImageServer.Host\Middlewares\ImageServerUnitOfWorkMiddleware.cs:line 26
+   at Ft.ImageServer.Host.Middlewares.RequestUrlNormalizer.Invoke(HttpContext context) in F:\Ft.ImageServer\Ft.ImageServer.Host\Middlewares\RequestUrlNormalizer.cs:line 36
+   at Ft.ImageServer.Host.Middlewares.PerformanceCounter.Invoke(HttpContext context) in F:\Ft.ImageServer\Ft.ImageServer.Host\Middlewares\PerformanceCounter.cs:line 24
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2019-01-09 14:02:54.379 +08:00 [INF] Request finished in 176.8562ms 500 
+2019-01-09 14:03:23.651 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:27293/5c3588d0546b234824172867  
+2019-01-09 14:03:23.652 +08:00 [INF] Route matched with {action = "GetRawImageAsync", controller = "DefaultHostImage", area = ""}. Executing action Ft.ImageServer.Host.Controllers.DefaultHostImageController.GetRawImageAsync (Ft.ImageServer.Host)
+2019-01-09 14:03:23.653 +08:00 [INF] Executed action Ft.ImageServer.Host.Controllers.DefaultHostImageController.GetRawImageAsync (Ft.ImageServer.Host) in 1.061ms
+2019-01-09 14:03:23.719 +08:00 [ERR] Connection id "0HLJLV09UJI40", Request id "0HLJLV09UJI40:00000007": An unhandled exception was thrown by the application.
+System.InvalidOperationException: Unable to resolve service for type 'Ft.ImageServer.Service.IImageService' while attempting to activate 'Ft.ImageServer.Host.Controllers.DefaultHostImageController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Ft.ImageServer.Host.Middlewares.ImageServerUnitOfWorkMiddleware.Invoke(HttpContext httpContext) in F:\Ft.ImageServer\Ft.ImageServer.Host\Middlewares\ImageServerUnitOfWorkMiddleware.cs:line 26
+   at Ft.ImageServer.Host.Middlewares.RequestUrlNormalizer.Invoke(HttpContext context) in F:\Ft.ImageServer\Ft.ImageServer.Host\Middlewares\RequestUrlNormalizer.cs:line 36
+   at Ft.ImageServer.Host.Middlewares.PerformanceCounter.Invoke(HttpContext context) in F:\Ft.ImageServer\Ft.ImageServer.Host\Middlewares\PerformanceCounter.cs:line 24
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2019-01-09 14:03:23.720 +08:00 [INF] Request finished in 68.9718ms 500 
+2019-01-09 14:03:24.724 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:27293/5c3588d0546b234824172867  
+2019-01-09 14:03:24.724 +08:00 [INF] Route matched with {action = "GetRawImageAsync", controller = "DefaultHostImage", area = ""}. Executing action Ft.ImageServer.Host.Controllers.DefaultHostImageController.GetRawImageAsync (Ft.ImageServer.Host)
+2019-01-09 14:03:24.728 +08:00 [INF] Executed action Ft.ImageServer.Host.Controllers.DefaultHostImageController.GetRawImageAsync (Ft.ImageServer.Host) in 4.0272000000000006ms
+2019-01-09 14:03:24.783 +08:00 [ERR] Connection id "0HLJLV09UJI41", Request id "0HLJLV09UJI41:00000005": An unhandled exception was thrown by the application.
+System.InvalidOperationException: Unable to resolve service for type 'Ft.ImageServer.Service.IImageService' while attempting to activate 'Ft.ImageServer.Host.Controllers.DefaultHostImageController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Ft.ImageServer.Host.Middlewares.ImageServerUnitOfWorkMiddleware.Invoke(HttpContext httpContext) in F:\Ft.ImageServer\Ft.ImageServer.Host\Middlewares\ImageServerUnitOfWorkMiddleware.cs:line 26
+   at Ft.ImageServer.Host.Middlewares.RequestUrlNormalizer.Invoke(HttpContext context) in F:\Ft.ImageServer\Ft.ImageServer.Host\Middlewares\RequestUrlNormalizer.cs:line 36
+   at Ft.ImageServer.Host.Middlewares.PerformanceCounter.Invoke(HttpContext context) in F:\Ft.ImageServer\Ft.ImageServer.Host\Middlewares\PerformanceCounter.cs:line 24
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2019-01-09 14:03:24.784 +08:00 [INF] Request finished in 60.456ms 500 
+2019-01-09 14:04:04.843 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:27293/5c3588d0546b234824172867  
+2019-01-09 14:04:04.843 +08:00 [INF] Route matched with {action = "GetRawImageAsync", controller = "DefaultHostImage", area = ""}. Executing action Ft.ImageServer.Host.Controllers.DefaultHostImageController.GetRawImageAsync (Ft.ImageServer.Host)
+2019-01-09 14:04:04.845 +08:00 [INF] Executed action Ft.ImageServer.Host.Controllers.DefaultHostImageController.GetRawImageAsync (Ft.ImageServer.Host) in 1.0848ms
+2019-01-09 14:04:04.904 +08:00 [ERR] Connection id "0HLJLV09UJI40", Request id "0HLJLV09UJI40:00000008": An unhandled exception was thrown by the application.
+System.InvalidOperationException: Unable to resolve service for type 'Ft.ImageServer.Service.IImageService' while attempting to activate 'Ft.ImageServer.Host.Controllers.DefaultHostImageController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Ft.ImageServer.Host.Middlewares.ImageServerUnitOfWorkMiddleware.Invoke(HttpContext httpContext) in F:\Ft.ImageServer\Ft.ImageServer.Host\Middlewares\ImageServerUnitOfWorkMiddleware.cs:line 26
+   at Ft.ImageServer.Host.Middlewares.RequestUrlNormalizer.Invoke(HttpContext context) in F:\Ft.ImageServer\Ft.ImageServer.Host\Middlewares\RequestUrlNormalizer.cs:line 36
+   at Ft.ImageServer.Host.Middlewares.PerformanceCounter.Invoke(HttpContext context) in F:\Ft.ImageServer\Ft.ImageServer.Host\Middlewares\PerformanceCounter.cs:line 24
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2019-01-09 14:04:04.905 +08:00 [INF] Request finished in 62.3438ms 500 
+2019-01-09 14:04:49.181 +08:00 [INF] Starting web host.
+2019-01-09 14:04:50.776 +08:00 [INF] User profile is available. Using 'C:\Users\zhenglong\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-01-09 14:04:50.862 +08:00 [INF] Loaded modules:
+2019-01-09 14:04:50.862 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2019-01-09 14:04:50.862 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2019-01-09 14:04:50.862 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2019-01-09 14:04:50.862 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2019-01-09 14:04:50.862 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2019-01-09 14:04:50.862 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2019-01-09 14:04:50.862 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2019-01-09 14:04:50.862 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyAbstractionsModule
+2019-01-09 14:04:50.863 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2019-01-09 14:04:50.863 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2019-01-09 14:04:50.863 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2019-01-09 14:04:50.863 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2019-01-09 14:04:50.863 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2019-01-09 14:04:50.863 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2019-01-09 14:04:50.863 +08:00 [INF] - Ft.ImageServer.Core.ImageServerCoreModule
+2019-01-09 14:04:50.863 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2019-01-09 14:04:50.863 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2019-01-09 14:04:50.863 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2019-01-09 14:04:50.863 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2019-01-09 14:04:50.863 +08:00 [INF] - Volo.Abp.MongoDB.AbpMongoDbModule
+2019-01-09 14:04:50.863 +08:00 [INF] - Ft.ImageServer.MongoDB.ImageServerMongoDBModule
+2019-01-09 14:04:50.863 +08:00 [INF] - FT.ImageServer.Service.ImageServerServiceModule
+2019-01-09 14:04:50.863 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2019-01-09 14:04:50.864 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2019-01-09 14:04:50.864 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2019-01-09 14:04:50.864 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2019-01-09 14:04:50.864 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2019-01-09 14:04:50.864 +08:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
+2019-01-09 14:04:50.864 +08:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
+2019-01-09 14:04:50.864 +08:00 [INF] - Ft.ImageServer.Host.ImageServerHostModule
+2019-01-09 14:04:51.110 +08:00 [INF] Initialized all modules.
+2019-01-09 14:04:51.389 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:27293/Home/Index  
+2019-01-09 14:04:51.634 +08:00 [INF] Route matched with {action = "Index", controller = "Home", area = ""}. Executing action Ft.ImageServer.Host.Controllers.HomeController.Index (Ft.ImageServer.Host)
+2019-01-09 14:04:51.643 +08:00 [INF] Executing action method Ft.ImageServer.Host.Controllers.HomeController.Index (Ft.ImageServer.Host) - Validation state: "Valid"
+2019-01-09 14:04:51.650 +08:00 [INF] Executed action method Ft.ImageServer.Host.Controllers.HomeController.Index (Ft.ImageServer.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 0.2909ms.
+2019-01-09 14:04:51.657 +08:00 [INF] Executing RedirectResult, redirecting to /swagger.
+2019-01-09 14:04:51.660 +08:00 [INF] Executed action Ft.ImageServer.Host.Controllers.HomeController.Index (Ft.ImageServer.Host) in 23.2113ms
+2019-01-09 14:04:51.687 +08:00 [INF] Request finished in 300.0298ms 302 
+2019-01-09 14:04:51.697 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:27293/swagger/index.html  
+2019-01-09 14:04:51.773 +08:00 [INF] Request finished in 76.0445ms 200 text/html
+2019-01-09 14:04:51.976 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:27293/swagger/ImageServer.json  
+2019-01-09 14:04:52.016 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:27293/swagger/swagger-ui-bundle.js.map  
+2019-01-09 14:04:52.200 +08:00 [INF] Request finished in 223.4905ms 200 application/json;charset=utf-8
+2019-01-09 14:04:52.422 +08:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js.map'. Physical path: 'N/A'
+2019-01-09 14:04:52.426 +08:00 [INF] Request finished in 410.4014ms 200 text/plain
+2019-01-09 14:04:52.441 +08:00 [INF] Request starting HTTP/1.1 HEAD http://localhost:27293/swagger/webpack.config.js  
+2019-01-09 14:04:52.442 +08:00 [INF] Request finished in 1.131ms 404 
+2019-01-09 14:04:52.445 +08:00 [INF] Request starting HTTP/1.1 HEAD http://localhost:27293/webpack.config.js  
+2019-01-09 14:04:52.446 +08:00 [INF] Request finished in 1.4866ms 404 
+2019-01-09 14:04:53.761 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:27293/swagger/swagger-ui-standalone-preset.js.map  
+2019-01-09 14:04:53.822 +08:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js.map'. Physical path: 'N/A'
+2019-01-09 14:04:53.822 +08:00 [INF] Request finished in 60.687ms 200 text/plain
+2019-01-09 14:04:53.825 +08:00 [INF] Request starting HTTP/1.1 HEAD http://localhost:27293/swagger/webpack.config.js  
+2019-01-09 14:04:53.825 +08:00 [INF] Request finished in 0.409ms 404 
+2019-01-09 14:04:53.828 +08:00 [INF] Request starting HTTP/1.1 HEAD http://localhost:27293/webpack.config.js  
+2019-01-09 14:04:53.829 +08:00 [INF] Request finished in 0.4621ms 404 
+2019-01-09 14:05:02.499 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:27293/5c3588d0546b234824172867  
+2019-01-09 14:05:02.521 +08:00 [INF] Route matched with {action = "GetRawImageAsync", controller = "DefaultHostImage", area = ""}. Executing action Ft.ImageServer.Host.Controllers.DefaultHostImageController.GetRawImageAsync (Ft.ImageServer.Host)
+2019-01-09 14:05:06.392 +08:00 [INF] Executing action method Ft.ImageServer.Host.Controllers.DefaultHostImageController.GetRawImageAsync (Ft.ImageServer.Host) with arguments (["5c3588d0546b234824172867"]) - Validation state: "Valid"
+2019-01-09 14:05:09.864 +08:00 [INF] Executed action method Ft.ImageServer.Host.Controllers.DefaultHostImageController.GetRawImageAsync (Ft.ImageServer.Host), returned result Microsoft.AspNetCore.Mvc.FileContentResult in 3471.8657000000003ms.
+2019-01-09 14:05:09.872 +08:00 [INF] Executing Microsoft.AspNetCore.Mvc.FileContentResult, sending file with download name '' ...
+2019-01-09 14:05:09.889 +08:00 [INF] Executed action Ft.ImageServer.Host.Controllers.DefaultHostImageController.GetRawImageAsync (Ft.ImageServer.Host) in 7366.6917ms
+2019-01-09 14:05:09.892 +08:00 [WRN] 处理耗时: 7391ms
+2019-01-09 14:05:09.892 +08:00 [INF] Request finished in 7392.1482ms 200 image/jpeg
+2019-01-09 14:07:16.721 +08:00 [INF] Starting web host.
+2019-01-09 14:07:18.357 +08:00 [INF] User profile is available. Using 'C:\Users\zhenglong\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-01-09 14:07:18.446 +08:00 [INF] Loaded modules:
+2019-01-09 14:07:18.446 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2019-01-09 14:07:18.446 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2019-01-09 14:07:18.446 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2019-01-09 14:07:18.446 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2019-01-09 14:07:18.446 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2019-01-09 14:07:18.446 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2019-01-09 14:07:18.446 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2019-01-09 14:07:18.446 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyAbstractionsModule
+2019-01-09 14:07:18.446 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2019-01-09 14:07:18.447 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2019-01-09 14:07:18.447 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2019-01-09 14:07:18.447 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2019-01-09 14:07:18.447 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2019-01-09 14:07:18.447 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2019-01-09 14:07:18.447 +08:00 [INF] - Ft.ImageServer.Core.ImageServerCoreModule
+2019-01-09 14:07:18.447 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2019-01-09 14:07:18.447 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2019-01-09 14:07:18.447 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2019-01-09 14:07:18.447 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2019-01-09 14:07:18.447 +08:00 [INF] - Volo.Abp.MongoDB.AbpMongoDbModule
+2019-01-09 14:07:18.447 +08:00 [INF] - Ft.ImageServer.MongoDB.ImageServerMongoDBModule
+2019-01-09 14:07:18.448 +08:00 [INF] - FT.ImageServer.Service.ImageServerServiceModule
+2019-01-09 14:07:18.448 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2019-01-09 14:07:18.448 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2019-01-09 14:07:18.448 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2019-01-09 14:07:18.448 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2019-01-09 14:07:18.448 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2019-01-09 14:07:18.448 +08:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
+2019-01-09 14:07:18.448 +08:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
+2019-01-09 14:07:18.448 +08:00 [INF] - Ft.ImageServer.Host.ImageServerHostModule
+2019-01-09 14:07:18.695 +08:00 [INF] Initialized all modules.
+2019-01-09 14:07:19.141 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:27293/Home/Index  
+2019-01-09 14:07:19.388 +08:00 [INF] Route matched with {action = "Index", controller = "Home", area = ""}. Executing action Ft.ImageServer.Host.Controllers.HomeController.Index (Ft.ImageServer.Host)
+2019-01-09 14:07:19.397 +08:00 [INF] Executing action method Ft.ImageServer.Host.Controllers.HomeController.Index (Ft.ImageServer.Host) - Validation state: "Valid"
+2019-01-09 14:07:19.403 +08:00 [INF] Executed action method Ft.ImageServer.Host.Controllers.HomeController.Index (Ft.ImageServer.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 0.2263ms.
+2019-01-09 14:07:19.407 +08:00 [INF] Executing RedirectResult, redirecting to /swagger.
+2019-01-09 14:07:19.410 +08:00 [INF] Executed action Ft.ImageServer.Host.Controllers.HomeController.Index (Ft.ImageServer.Host) in 19.755100000000002ms
+2019-01-09 14:07:19.438 +08:00 [INF] Request finished in 298.7026ms 302 
+2019-01-09 14:07:19.447 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:27293/swagger/index.html  
+2019-01-09 14:07:19.520 +08:00 [INF] Request finished in 73.2104ms 200 text/html
+2019-01-09 14:07:19.608 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:27293/swagger/swagger-ui-bundle.js.map  
+2019-01-09 14:07:19.716 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:27293/swagger/ImageServer.json  
+2019-01-09 14:07:19.926 +08:00 [INF] Request finished in 209.8807ms 200 application/json;charset=utf-8
+2019-01-09 14:07:19.978 +08:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js.map'. Physical path: 'N/A'
+2019-01-09 14:07:19.982 +08:00 [INF] Request finished in 374.6521ms 200 text/plain
+2019-01-09 14:07:19.990 +08:00 [INF] Request starting HTTP/1.1 HEAD http://localhost:27293/swagger/webpack.config.js  
+2019-01-09 14:07:19.992 +08:00 [INF] Request finished in 1.2982ms 404 
+2019-01-09 14:07:19.994 +08:00 [INF] Request starting HTTP/1.1 HEAD http://localhost:27293/webpack.config.js  
+2019-01-09 14:07:19.996 +08:00 [INF] Request finished in 1.6737ms 404 
+2019-01-09 14:07:21.323 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:27293/swagger/swagger-ui-standalone-preset.js.map  
+2019-01-09 14:07:21.412 +08:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js.map'. Physical path: 'N/A'
+2019-01-09 14:07:21.412 +08:00 [INF] Request finished in 89.1602ms 200 text/plain
+2019-01-09 14:07:21.425 +08:00 [INF] Request starting HTTP/1.1 HEAD http://localhost:27293/swagger/webpack.config.js  
+2019-01-09 14:07:21.426 +08:00 [INF] Request finished in 0.6589ms 404 
+2019-01-09 14:07:21.429 +08:00 [INF] Request starting HTTP/1.1 HEAD http://localhost:27293/webpack.config.js  
+2019-01-09 14:07:21.429 +08:00 [INF] Request finished in 0.4693ms 404 
+2019-01-09 14:07:27.169 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:27293/5c3588d0546b234824172867  
+2019-01-09 14:07:27.192 +08:00 [INF] Route matched with {action = "GetRawImageAsync", controller = "DefaultHostImage", area = ""}. Executing action Ft.ImageServer.Host.Controllers.DefaultHostImageController.GetRawImageAsync (Ft.ImageServer.Host)
+2019-01-09 14:07:43.983 +08:00 [INF] Executing action method Ft.ImageServer.Host.Controllers.DefaultHostImageController.GetRawImageAsync (Ft.ImageServer.Host) with arguments (["5c3588d0546b234824172867"]) - Validation state: "Valid"
+2019-01-09 14:07:53.749 +08:00 [INF] 未能获取到照片信息，参数是:host=default,id=5c3588d0546b234824172867
+2019-01-09 14:07:53.750 +08:00 [INF] Executed action method Ft.ImageServer.Host.Controllers.DefaultHostImageController.GetRawImageAsync (Ft.ImageServer.Host), returned result Microsoft.AspNetCore.Mvc.NotFoundResult in 9765.9763ms.
+2019-01-09 14:07:53.771 +08:00 [INF] Executing HttpStatusCodeResult, setting HTTP status code 404
+2019-01-09 14:07:53.771 +08:00 [INF] Executed action Ft.ImageServer.Host.Controllers.DefaultHostImageController.GetRawImageAsync (Ft.ImageServer.Host) in 26577.983900000003ms
+2019-01-09 14:07:53.771 +08:00 [ERR] 处理耗时: 26600ms
+2019-01-09 14:07:53.772 +08:00 [INF] Request finished in 26600.8693ms 404 
+2019-01-09 14:22:00.572 +08:00 [INF] Starting web host.
+2019-01-09 14:22:02.186 +08:00 [INF] User profile is available. Using 'C:\Users\zhenglong\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-01-09 14:22:02.274 +08:00 [INF] Loaded modules:
+2019-01-09 14:22:02.274 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2019-01-09 14:22:02.274 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2019-01-09 14:22:02.274 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2019-01-09 14:22:02.274 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2019-01-09 14:22:02.274 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2019-01-09 14:22:02.275 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2019-01-09 14:22:02.275 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2019-01-09 14:22:02.275 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyAbstractionsModule
+2019-01-09 14:22:02.275 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2019-01-09 14:22:02.275 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2019-01-09 14:22:02.275 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2019-01-09 14:22:02.275 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2019-01-09 14:22:02.275 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2019-01-09 14:22:02.275 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2019-01-09 14:22:02.275 +08:00 [INF] - Ft.ImageServer.Core.ImageServerCoreModule
+2019-01-09 14:22:02.275 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2019-01-09 14:22:02.275 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2019-01-09 14:22:02.275 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2019-01-09 14:22:02.275 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2019-01-09 14:22:02.275 +08:00 [INF] - Volo.Abp.MongoDB.AbpMongoDbModule
+2019-01-09 14:22:02.276 +08:00 [INF] - Ft.ImageServer.MongoDB.ImageServerMongoDBModule
+2019-01-09 14:22:02.276 +08:00 [INF] - FT.ImageServer.Service.ImageServerServiceModule
+2019-01-09 14:22:02.276 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2019-01-09 14:22:02.276 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2019-01-09 14:22:02.276 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2019-01-09 14:22:02.276 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2019-01-09 14:22:02.276 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2019-01-09 14:22:02.276 +08:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
+2019-01-09 14:22:02.276 +08:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
+2019-01-09 14:22:02.276 +08:00 [INF] - Ft.ImageServer.Host.ImageServerHostModule
+2019-01-09 14:22:02.528 +08:00 [INF] Initialized all modules.
+2019-01-09 14:22:02.979 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:27293/Home/Index  
+2019-01-09 14:22:03.246 +08:00 [INF] Route matched with {action = "Index", controller = "Home", area = ""}. Executing action Ft.ImageServer.Host.Controllers.HomeController.Index (Ft.ImageServer.Host)
+2019-01-09 14:22:03.257 +08:00 [INF] Executing action method Ft.ImageServer.Host.Controllers.HomeController.Index (Ft.ImageServer.Host) - Validation state: "Valid"
+2019-01-09 14:22:03.266 +08:00 [INF] Executed action method Ft.ImageServer.Host.Controllers.HomeController.Index (Ft.ImageServer.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 0.405ms.
+2019-01-09 14:22:03.273 +08:00 [INF] Executing RedirectResult, redirecting to /swagger.
+2019-01-09 14:22:03.277 +08:00 [INF] Executed action Ft.ImageServer.Host.Controllers.HomeController.Index (Ft.ImageServer.Host) in 28.1686ms
+2019-01-09 14:22:03.311 +08:00 [INF] Request finished in 333.234ms 302 
+2019-01-09 14:22:03.320 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:27293/swagger/index.html  
+2019-01-09 14:22:03.413 +08:00 [INF] Request finished in 92.1072ms 200 text/html
+2019-01-09 14:22:03.635 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:27293/swagger/ImageServer.json  
+2019-01-09 14:22:03.688 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:27293/swagger/swagger-ui-bundle.js.map  
+2019-01-09 14:22:03.863 +08:00 [INF] Request finished in 228.6875ms 200 application/json;charset=utf-8
+2019-01-09 14:22:04.278 +08:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js.map'. Physical path: 'N/A'
+2019-01-09 14:22:04.283 +08:00 [INF] Request finished in 595.0955ms 200 text/plain
+2019-01-09 14:22:04.310 +08:00 [INF] Request starting HTTP/1.1 HEAD http://localhost:27293/swagger/webpack.config.js  
+2019-01-09 14:22:04.311 +08:00 [INF] Request finished in 0.9976ms 404 
+2019-01-09 14:22:04.313 +08:00 [INF] Request starting HTTP/1.1 HEAD http://localhost:27293/webpack.config.js  
+2019-01-09 14:22:04.314 +08:00 [INF] Request finished in 1.0884ms 404 
+2019-01-09 14:22:05.556 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:27293/swagger/swagger-ui-standalone-preset.js.map  
+2019-01-09 14:22:05.690 +08:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js.map'. Physical path: 'N/A'
+2019-01-09 14:22:05.690 +08:00 [INF] Request finished in 134.4148ms 200 text/plain
+2019-01-09 14:22:05.708 +08:00 [INF] Request starting HTTP/1.1 HEAD http://localhost:27293/swagger/webpack.config.js  
+2019-01-09 14:22:05.708 +08:00 [INF] Request finished in 0.4841ms 404 
+2019-01-09 14:22:05.712 +08:00 [INF] Request starting HTTP/1.1 HEAD http://localhost:27293/webpack.config.js  
+2019-01-09 14:22:05.713 +08:00 [INF] Request finished in 0.7461ms 404 
+2019-01-09 14:22:39.535 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:27293/5c358e242bce279e88b26d2a/h-4A7D1ED414474E4033AC29CCB8653D9B/90  
+2019-01-09 14:22:39.566 +08:00 [INF] Route matched with {action = "GetImageWithoutOptionsAsync", controller = "DefaultHostImage", area = ""}. Executing action Ft.ImageServer.Host.Controllers.DefaultHostImageController.GetImageWithoutOptionsAsync (Ft.ImageServer.Host)
+2019-01-09 14:22:46.149 +08:00 [INF] Executing action method Ft.ImageServer.Host.Controllers.DefaultHostImageController.GetImageWithoutOptionsAsync (Ft.ImageServer.Host) with arguments (["5c358e242bce279e88b26d2a","4A7D1ED414474E4033AC29CCB8653D9B","90"]) - Validation state: "Valid"
+2019-01-09 14:22:47.547 +08:00 [INF] Executed action Ft.ImageServer.Host.Controllers.DefaultHostImageController.GetImageWithoutOptionsAsync (Ft.ImageServer.Host) in 7980.1796ms
+2019-01-09 14:22:47.763 +08:00 [ERR] Connection id "0HLJLVB2HK498", Request id "0HLJLVB2HK498:00000004": An unhandled exception was thrown by the application.
+ImageMagick.MagickOptionErrorException: invalid geometry `(null)' @ error/geometry.c/ParseGravityGeometry/1250
+   at ImageMagick.NativeInstance.CheckException(IntPtr exception, IntPtr result)
+   at ImageMagick.MagickImage.NativeMagickImage.Crop(String geometry, Gravity gravity)
+   at Ft.ImageServer.Service.ImageService.CropImage(ImageCustomization imageCustomization, IMagickImage magickImage) in F:\Ft.ImageServer\Ft.ImageServer.Application\ImageService.cs:line 384
+   at Ft.ImageServer.Service.ImageService.GetImageFromMongoDBAsync(String hostName, String id, String metahash, Int32 quality, String options) in F:\Ft.ImageServer\Ft.ImageServer.Application\ImageService.cs:line 109
+   at Ft.ImageServer.Host.Controllers.DefaultHostImageController.GetImageWithoutOptionsAsync(String id, String metahash, Int32 quality) in F:\Ft.ImageServer\Ft.ImageServer.Host\Controllers\DefaultHostImageController.cs:line 69
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Ft.ImageServer.Host.Middlewares.ImageServerUnitOfWorkMiddleware.Invoke(HttpContext httpContext) in F:\Ft.ImageServer\Ft.ImageServer.Host\Middlewares\ImageServerUnitOfWorkMiddleware.cs:line 26
+   at Ft.ImageServer.Host.Middlewares.RequestUrlNormalizer.Invoke(HttpContext context) in F:\Ft.ImageServer\Ft.ImageServer.Host\Middlewares\RequestUrlNormalizer.cs:line 36
+   at Ft.ImageServer.Host.Middlewares.PerformanceCounter.Invoke(HttpContext context) in F:\Ft.ImageServer\Ft.ImageServer.Host\Middlewares\PerformanceCounter.cs:line 24
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2019-01-09 14:22:47.801 +08:00 [INF] Request finished in 8265.1211ms 500 
+2019-01-09 14:24:21.116 +08:00 [INF] Starting web host.
+2019-01-09 14:24:22.731 +08:00 [INF] User profile is available. Using 'C:\Users\zhenglong\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-01-09 14:24:22.823 +08:00 [INF] Loaded modules:
+2019-01-09 14:24:22.823 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2019-01-09 14:24:22.823 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2019-01-09 14:24:22.823 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2019-01-09 14:24:22.823 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2019-01-09 14:24:22.823 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2019-01-09 14:24:22.824 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2019-01-09 14:24:22.824 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2019-01-09 14:24:22.824 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyAbstractionsModule
+2019-01-09 14:24:22.824 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2019-01-09 14:24:22.824 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2019-01-09 14:24:22.824 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2019-01-09 14:24:22.824 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2019-01-09 14:24:22.824 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2019-01-09 14:24:22.824 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2019-01-09 14:24:22.824 +08:00 [INF] - Ft.ImageServer.Core.ImageServerCoreModule
+2019-01-09 14:24:22.824 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2019-01-09 14:24:22.824 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2019-01-09 14:24:22.825 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2019-01-09 14:24:22.825 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2019-01-09 14:24:22.825 +08:00 [INF] - Volo.Abp.MongoDB.AbpMongoDbModule
+2019-01-09 14:24:22.825 +08:00 [INF] - Ft.ImageServer.MongoDB.ImageServerMongoDBModule
+2019-01-09 14:24:22.825 +08:00 [INF] - FT.ImageServer.Service.ImageServerServiceModule
+2019-01-09 14:24:22.825 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2019-01-09 14:24:22.825 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2019-01-09 14:24:22.825 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2019-01-09 14:24:22.825 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2019-01-09 14:24:22.825 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2019-01-09 14:24:22.825 +08:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
+2019-01-09 14:24:22.825 +08:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
+2019-01-09 14:24:22.825 +08:00 [INF] - Ft.ImageServer.Host.ImageServerHostModule
+2019-01-09 14:24:23.079 +08:00 [INF] Initialized all modules.
+2019-01-09 14:24:23.392 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:27293/Home/Index  
+2019-01-09 14:24:23.655 +08:00 [INF] Route matched with {action = "Index", controller = "Home", area = ""}. Executing action Ft.ImageServer.Host.Controllers.HomeController.Index (Ft.ImageServer.Host)
+2019-01-09 14:24:23.664 +08:00 [INF] Executing action method Ft.ImageServer.Host.Controllers.HomeController.Index (Ft.ImageServer.Host) - Validation state: "Valid"
+2019-01-09 14:24:23.670 +08:00 [INF] Executed action method Ft.ImageServer.Host.Controllers.HomeController.Index (Ft.ImageServer.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 0.2589ms.
+2019-01-09 14:24:23.675 +08:00 [INF] Executing RedirectResult, redirecting to /swagger.
+2019-01-09 14:24:23.677 +08:00 [INF] Executed action Ft.ImageServer.Host.Controllers.HomeController.Index (Ft.ImageServer.Host) in 20.1883ms
+2019-01-09 14:24:23.709 +08:00 [INF] Request finished in 318.3156ms 302 
+2019-01-09 14:24:23.719 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:27293/swagger/index.html  
+2019-01-09 14:24:23.815 +08:00 [INF] Request finished in 96.1785ms 200 text/html
+2019-01-09 14:24:23.925 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:27293/swagger/swagger-ui-bundle.js.map  
+2019-01-09 14:24:24.050 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:27293/swagger/ImageServer.json  
+2019-01-09 14:24:24.295 +08:00 [INF] Request finished in 245.5193ms 200 application/json;charset=utf-8
+2019-01-09 14:24:24.547 +08:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js.map'. Physical path: 'N/A'
+2019-01-09 14:24:24.552 +08:00 [INF] Request finished in 627.676ms 200 text/plain
+2019-01-09 14:24:24.574 +08:00 [INF] Request starting HTTP/1.1 HEAD http://localhost:27293/swagger/webpack.config.js  
+2019-01-09 14:24:24.575 +08:00 [INF] Request finished in 1.2529ms 404 
+2019-01-09 14:24:24.579 +08:00 [INF] Request starting HTTP/1.1 HEAD http://localhost:27293/webpack.config.js  
+2019-01-09 14:24:24.584 +08:00 [INF] Request finished in 2.1521ms 404 
+2019-01-09 14:24:25.904 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:27293/swagger/swagger-ui-standalone-preset.js.map  
+2019-01-09 14:24:26.067 +08:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js.map'. Physical path: 'N/A'
+2019-01-09 14:24:26.067 +08:00 [INF] Request finished in 163.6071ms 200 text/plain
+2019-01-09 14:24:26.083 +08:00 [INF] Request starting HTTP/1.1 HEAD http://localhost:27293/swagger/webpack.config.js  
+2019-01-09 14:24:26.084 +08:00 [INF] Request finished in 0.6999ms 404 
+2019-01-09 14:24:26.087 +08:00 [INF] Request starting HTTP/1.1 HEAD http://localhost:27293/webpack.config.js  
+2019-01-09 14:24:26.087 +08:00 [INF] Request finished in 0.568ms 404 
+2019-01-09 14:24:47.197 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:27293/5c358e242bce279e88b26d2a/h-4A7D1ED414474E4033AC29CCB8653D9B/90  
+2019-01-09 14:24:47.225 +08:00 [INF] Route matched with {action = "GetImageWithoutOptionsAsync", controller = "DefaultHostImage", area = ""}. Executing action Ft.ImageServer.Host.Controllers.DefaultHostImageController.GetImageWithoutOptionsAsync (Ft.ImageServer.Host)
+2019-01-09 14:24:47.392 +08:00 [INF] Executing action method Ft.ImageServer.Host.Controllers.DefaultHostImageController.GetImageWithoutOptionsAsync (Ft.ImageServer.Host) with arguments (["5c358e242bce279e88b26d2a","4A7D1ED414474E4033AC29CCB8653D9B","90"]) - Validation state: "Valid"
+2019-01-09 14:25:32.703 +08:00 [INF] Executed action Ft.ImageServer.Host.Controllers.DefaultHostImageController.GetImageWithoutOptionsAsync (Ft.ImageServer.Host) in 45474.5615ms
+2019-01-09 14:25:32.961 +08:00 [ERR] Connection id "0HLJLVCCCS95N", Request id "0HLJLVCCCS95N:00000006": An unhandled exception was thrown by the application.
+ImageMagick.MagickOptionErrorException: invalid geometry `(null)' @ error/geometry.c/ParseGravityGeometry/1250
+   at ImageMagick.NativeInstance.CheckException(IntPtr exception, IntPtr result)
+   at ImageMagick.MagickImage.NativeMagickImage.Crop(String geometry, Gravity gravity)
+   at Ft.ImageServer.Service.ImageService.CropImage(ImageCustomization imageCustomization, IMagickImage magickImage) in F:\Ft.ImageServer\Ft.ImageServer.Application\ImageService.cs:line 384
+   at Ft.ImageServer.Service.ImageService.GetImageFromMongoDBAsync(String hostName, String id, String metahash, Int32 quality, String options) in F:\Ft.ImageServer\Ft.ImageServer.Application\ImageService.cs:line 109
+   at Ft.ImageServer.Host.Controllers.DefaultHostImageController.GetImageWithoutOptionsAsync(String id, String metahash, Int32 quality) in F:\Ft.ImageServer\Ft.ImageServer.Host\Controllers\DefaultHostImageController.cs:line 69
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Ft.ImageServer.Host.Middlewares.ImageServerUnitOfWorkMiddleware.Invoke(HttpContext httpContext) in F:\Ft.ImageServer\Ft.ImageServer.Host\Middlewares\ImageServerUnitOfWorkMiddleware.cs:line 26
+   at Ft.ImageServer.Host.Middlewares.RequestUrlNormalizer.Invoke(HttpContext context) in F:\Ft.ImageServer\Ft.ImageServer.Host\Middlewares\RequestUrlNormalizer.cs:line 36
+   at Ft.ImageServer.Host.Middlewares.PerformanceCounter.Invoke(HttpContext context) in F:\Ft.ImageServer\Ft.ImageServer.Host\Middlewares\PerformanceCounter.cs:line 24
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2019-01-09 14:25:33.007 +08:00 [INF] Request finished in 45806.7677ms 500 
+2019-01-09 14:25:39.866 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:27293/5c358e242bce279e88b26d2a/h-4A7D1ED414474E4033AC29CCB8653D9B/90  
+2019-01-09 14:25:39.867 +08:00 [INF] Route matched with {action = "GetImageWithoutOptionsAsync", controller = "DefaultHostImage", area = ""}. Executing action Ft.ImageServer.Host.Controllers.DefaultHostImageController.GetImageWithoutOptionsAsync (Ft.ImageServer.Host)
+2019-01-09 14:25:39.869 +08:00 [INF] Executing action method Ft.ImageServer.Host.Controllers.DefaultHostImageController.GetImageWithoutOptionsAsync (Ft.ImageServer.Host) with arguments (["5c358e242bce279e88b26d2a","4A7D1ED414474E4033AC29CCB8653D9B","90"]) - Validation state: "Valid"
+2019-01-09 14:26:10.794 +08:00 [INF] Executed action Ft.ImageServer.Host.Controllers.DefaultHostImageController.GetImageWithoutOptionsAsync (Ft.ImageServer.Host) in 30924.714200000002ms
+2019-01-09 14:26:11.058 +08:00 [ERR] Connection id "0HLJLVCCCS95N", Request id "0HLJLVCCCS95N:00000007": An unhandled exception was thrown by the application.
+ImageMagick.MagickOptionErrorException: invalid geometry `(null)' @ error/geometry.c/ParseGravityGeometry/1250
+   at ImageMagick.NativeInstance.CheckException(IntPtr exception, IntPtr result)
+   at ImageMagick.MagickImage.NativeMagickImage.Crop(String geometry, Gravity gravity)
+   at Ft.ImageServer.Service.ImageService.CropImage(ImageCustomization imageCustomization, IMagickImage magickImage) in F:\Ft.ImageServer\Ft.ImageServer.Application\ImageService.cs:line 384
+   at Ft.ImageServer.Service.ImageService.GetImageFromMongoDBAsync(String hostName, String id, String metahash, Int32 quality, String options) in F:\Ft.ImageServer\Ft.ImageServer.Application\ImageService.cs:line 109
+   at Ft.ImageServer.Host.Controllers.DefaultHostImageController.GetImageWithoutOptionsAsync(String id, String metahash, Int32 quality) in F:\Ft.ImageServer\Ft.ImageServer.Host\Controllers\DefaultHostImageController.cs:line 69
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Ft.ImageServer.Host.Middlewares.ImageServerUnitOfWorkMiddleware.Invoke(HttpContext httpContext) in F:\Ft.ImageServer\Ft.ImageServer.Host\Middlewares\ImageServerUnitOfWorkMiddleware.cs:line 26
+   at Ft.ImageServer.Host.Middlewares.RequestUrlNormalizer.Invoke(HttpContext context) in F:\Ft.ImageServer\Ft.ImageServer.Host\Middlewares\RequestUrlNormalizer.cs:line 36
+   at Ft.ImageServer.Host.Middlewares.PerformanceCounter.Invoke(HttpContext context) in F:\Ft.ImageServer\Ft.ImageServer.Host\Middlewares\PerformanceCounter.cs:line 24
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2019-01-09 14:26:11.060 +08:00 [INF] Request finished in 31191.9252ms 500 
+2019-01-09 14:27:01.825 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:27293/5c3588d0546b234824172867/h-4A7D1ED414474E4033AC29CCB8653D9B/90  
+2019-01-09 14:27:01.827 +08:00 [INF] Route matched with {action = "GetImageWithoutOptionsAsync", controller = "DefaultHostImage", area = ""}. Executing action Ft.ImageServer.Host.Controllers.DefaultHostImageController.GetImageWithoutOptionsAsync (Ft.ImageServer.Host)
+2019-01-09 14:27:01.828 +08:00 [INF] Executing action method Ft.ImageServer.Host.Controllers.DefaultHostImageController.GetImageWithoutOptionsAsync (Ft.ImageServer.Host) with arguments (["5c3588d0546b234824172867","4A7D1ED414474E4033AC29CCB8653D9B","90"]) - Validation state: "Valid"
+2019-01-09 14:27:15.363 +08:00 [INF] Executed action Ft.ImageServer.Host.Controllers.DefaultHostImageController.GetImageWithoutOptionsAsync (Ft.ImageServer.Host) in 13533.6499ms
+2019-01-09 14:27:15.628 +08:00 [ERR] Connection id "0HLJLVCCCS95N", Request id "0HLJLVCCCS95N:00000008": An unhandled exception was thrown by the application.
+ImageMagick.MagickOptionErrorException: invalid geometry `(null)' @ error/geometry.c/ParseGravityGeometry/1250
+   at ImageMagick.NativeInstance.CheckException(IntPtr exception, IntPtr result)
+   at ImageMagick.MagickImage.NativeMagickImage.Crop(String geometry, Gravity gravity)
+   at Ft.ImageServer.Service.ImageService.CropImage(ImageCustomization imageCustomization, IMagickImage magickImage) in F:\Ft.ImageServer\Ft.ImageServer.Application\ImageService.cs:line 384
+   at Ft.ImageServer.Service.ImageService.GetImageFromMongoDBAsync(String hostName, String id, String metahash, Int32 quality, String options) in F:\Ft.ImageServer\Ft.ImageServer.Application\ImageService.cs:line 109
+   at Ft.ImageServer.Host.Controllers.DefaultHostImageController.GetImageWithoutOptionsAsync(String id, String metahash, Int32 quality) in F:\Ft.ImageServer\Ft.ImageServer.Host\Controllers\DefaultHostImageController.cs:line 69
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Ft.ImageServer.Host.Middlewares.ImageServerUnitOfWorkMiddleware.Invoke(HttpContext httpContext) in F:\Ft.ImageServer\Ft.ImageServer.Host\Middlewares\ImageServerUnitOfWorkMiddleware.cs:line 26
+   at Ft.ImageServer.Host.Middlewares.RequestUrlNormalizer.Invoke(HttpContext context) in F:\Ft.ImageServer\Ft.ImageServer.Host\Middlewares\RequestUrlNormalizer.cs:line 36
+   at Ft.ImageServer.Host.Middlewares.PerformanceCounter.Invoke(HttpContext context) in F:\Ft.ImageServer\Ft.ImageServer.Host\Middlewares\PerformanceCounter.cs:line 24
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2019-01-09 14:27:15.630 +08:00 [INF] Request finished in 13803.1507ms 500 
+2019-01-09 14:27:27.642 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:27293/5c3588d0546b234824172867/h-B44C8F7684DA6C6178666C411162E478/90  
+2019-01-09 14:27:27.642 +08:00 [INF] Route matched with {action = "GetImageWithoutOptionsAsync", controller = "DefaultHostImage", area = ""}. Executing action Ft.ImageServer.Host.Controllers.DefaultHostImageController.GetImageWithoutOptionsAsync (Ft.ImageServer.Host)
+2019-01-09 14:27:27.643 +08:00 [INF] Executing action method Ft.ImageServer.Host.Controllers.DefaultHostImageController.GetImageWithoutOptionsAsync (Ft.ImageServer.Host) with arguments (["5c3588d0546b234824172867","B44C8F7684DA6C6178666C411162E478","90"]) - Validation state: "Valid"
+2019-01-09 14:27:29.094 +08:00 [INF] Executed action method Ft.ImageServer.Host.Controllers.DefaultHostImageController.GetImageWithoutOptionsAsync (Ft.ImageServer.Host), returned result Microsoft.AspNetCore.Mvc.FileContentResult in 1451.3731ms.
+2019-01-09 14:27:29.098 +08:00 [INF] Executing Microsoft.AspNetCore.Mvc.FileContentResult, sending file with download name '' ...
+2019-01-09 14:27:29.099 +08:00 [INF] Executed action Ft.ImageServer.Host.Controllers.DefaultHostImageController.GetImageWithoutOptionsAsync (Ft.ImageServer.Host) in 1457.2963ms
+2019-01-09 14:27:29.100 +08:00 [INF] Request finished in 1458.3205ms 200 image/jpeg
+2019-01-09 14:29:02.187 +08:00 [INF] Starting web host.
+2019-01-09 14:29:03.831 +08:00 [INF] User profile is available. Using 'C:\Users\zhenglong\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-01-09 14:29:03.921 +08:00 [INF] Loaded modules:
+2019-01-09 14:29:03.921 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2019-01-09 14:29:03.921 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2019-01-09 14:29:03.921 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2019-01-09 14:29:03.921 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2019-01-09 14:29:03.922 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2019-01-09 14:29:03.922 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2019-01-09 14:29:03.922 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2019-01-09 14:29:03.922 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyAbstractionsModule
+2019-01-09 14:29:03.922 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2019-01-09 14:29:03.922 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2019-01-09 14:29:03.922 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2019-01-09 14:29:03.922 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2019-01-09 14:29:03.922 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2019-01-09 14:29:03.922 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2019-01-09 14:29:03.922 +08:00 [INF] - Ft.ImageServer.Core.ImageServerCoreModule
+2019-01-09 14:29:03.922 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2019-01-09 14:29:03.922 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2019-01-09 14:29:03.922 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2019-01-09 14:29:03.922 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2019-01-09 14:29:03.922 +08:00 [INF] - Volo.Abp.MongoDB.AbpMongoDbModule
+2019-01-09 14:29:03.923 +08:00 [INF] - Ft.ImageServer.MongoDB.ImageServerMongoDBModule
+2019-01-09 14:29:03.923 +08:00 [INF] - FT.ImageServer.Service.ImageServerServiceModule
+2019-01-09 14:29:03.923 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2019-01-09 14:29:03.923 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2019-01-09 14:29:03.923 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2019-01-09 14:29:03.923 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2019-01-09 14:29:03.923 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2019-01-09 14:29:03.923 +08:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
+2019-01-09 14:29:03.923 +08:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
+2019-01-09 14:29:03.923 +08:00 [INF] - Ft.ImageServer.Host.ImageServerHostModule
+2019-01-09 14:29:04.179 +08:00 [INF] Initialized all modules.
+2019-01-09 14:29:04.508 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:27293/Home/Index  
+2019-01-09 14:29:04.764 +08:00 [INF] Route matched with {action = "Index", controller = "Home", area = ""}. Executing action Ft.ImageServer.Host.Controllers.HomeController.Index (Ft.ImageServer.Host)
+2019-01-09 14:29:04.774 +08:00 [INF] Executing action method Ft.ImageServer.Host.Controllers.HomeController.Index (Ft.ImageServer.Host) - Validation state: "Valid"
+2019-01-09 14:29:04.780 +08:00 [INF] Executed action method Ft.ImageServer.Host.Controllers.HomeController.Index (Ft.ImageServer.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 0.2514ms.
+2019-01-09 14:29:04.785 +08:00 [INF] Executing RedirectResult, redirecting to /swagger.
+2019-01-09 14:29:04.788 +08:00 [INF] Executed action Ft.ImageServer.Host.Controllers.HomeController.Index (Ft.ImageServer.Host) in 20.931800000000003ms
+2019-01-09 14:29:04.818 +08:00 [INF] Request finished in 311.0939ms 302 
+2019-01-09 14:29:04.832 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:27293/swagger/index.html  
+2019-01-09 14:29:04.910 +08:00 [INF] Request finished in 78.2142ms 200 text/html
+2019-01-09 14:29:05.090 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:27293/swagger/ImageServer.json  
+2019-01-09 14:29:05.121 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:27293/swagger/swagger-ui-bundle.js.map  
+2019-01-09 14:29:05.334 +08:00 [INF] Request finished in 243.371ms 200 application/json;charset=utf-8
+2019-01-09 14:29:05.450 +08:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js.map'. Physical path: 'N/A'
+2019-01-09 14:29:05.454 +08:00 [INF] Request starting HTTP/1.1 HEAD http://localhost:27293/swagger/webpack.config.js  
+2019-01-09 14:29:05.455 +08:00 [INF] Request finished in 1.2538ms 404 
+2019-01-09 14:29:05.456 +08:00 [INF] Request finished in 333.2569ms 200 text/plain
+2019-01-09 14:29:05.459 +08:00 [INF] Request starting HTTP/1.1 HEAD http://localhost:27293/webpack.config.js  
+2019-01-09 14:29:05.460 +08:00 [INF] Request finished in 1.6236ms 404 
+2019-01-09 14:29:06.793 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:27293/swagger/swagger-ui-standalone-preset.js.map  
+2019-01-09 14:29:06.938 +08:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js.map'. Physical path: 'N/A'
+2019-01-09 14:29:06.939 +08:00 [INF] Request finished in 145.3107ms 200 text/plain
+2019-01-09 14:29:06.947 +08:00 [INF] Request starting HTTP/1.1 HEAD http://localhost:27293/swagger/webpack.config.js  
+2019-01-09 14:29:06.947 +08:00 [INF] Request finished in 0.6326ms 404 
+2019-01-09 14:29:06.950 +08:00 [INF] Request starting HTTP/1.1 HEAD http://localhost:27293/webpack.config.js  
+2019-01-09 14:29:06.951 +08:00 [INF] Request finished in 0.8527ms 404 
+2019-01-09 14:29:26.608 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:27293/5c3588d0546b234824172867/h-4A7D1ED414474E4033AC29CCB8653D9B/90  
+2019-01-09 14:29:26.637 +08:00 [INF] Route matched with {action = "GetImageWithoutOptionsAsync", controller = "DefaultHostImage", area = ""}. Executing action Ft.ImageServer.Host.Controllers.DefaultHostImageController.GetImageWithoutOptionsAsync (Ft.ImageServer.Host)
+2019-01-09 14:29:26.814 +08:00 [INF] Executing action method Ft.ImageServer.Host.Controllers.DefaultHostImageController.GetImageWithoutOptionsAsync (Ft.ImageServer.Host) with arguments (["5c3588d0546b234824172867","4A7D1ED414474E4033AC29CCB8653D9B","90"]) - Validation state: "Valid"
+2019-01-09 14:29:30.705 +08:00 [INF] Executed action method Ft.ImageServer.Host.Controllers.DefaultHostImageController.GetImageWithoutOptionsAsync (Ft.ImageServer.Host), returned result Microsoft.AspNetCore.Mvc.FileContentResult in 3890.3263ms.
+2019-01-09 14:29:30.714 +08:00 [INF] Executing Microsoft.AspNetCore.Mvc.FileContentResult, sending file with download name '' ...
+2019-01-09 14:29:30.718 +08:00 [INF] Executed action Ft.ImageServer.Host.Controllers.DefaultHostImageController.GetImageWithoutOptionsAsync (Ft.ImageServer.Host) in 4081.0226000000002ms
+2019-01-09 14:29:30.722 +08:00 [INF] Request finished in 4114.3095ms 200 image/jpeg
+2019-01-09 14:29:35.989 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:27293/5c3588d0546b234824172867/h-4A7D1ED414474E4033AC29CCB8653D9B/10  
+2019-01-09 14:29:35.990 +08:00 [INF] Route matched with {action = "GetImageWithoutOptionsAsync", controller = "DefaultHostImage", area = ""}. Executing action Ft.ImageServer.Host.Controllers.DefaultHostImageController.GetImageWithoutOptionsAsync (Ft.ImageServer.Host)
+2019-01-09 14:29:35.992 +08:00 [INF] Executing action method Ft.ImageServer.Host.Controllers.DefaultHostImageController.GetImageWithoutOptionsAsync (Ft.ImageServer.Host) with arguments (["5c3588d0546b234824172867","4A7D1ED414474E4033AC29CCB8653D9B","10"]) - Validation state: "Valid"
+2019-01-09 14:29:36.067 +08:00 [INF] Executed action method Ft.ImageServer.Host.Controllers.DefaultHostImageController.GetImageWithoutOptionsAsync (Ft.ImageServer.Host), returned result Microsoft.AspNetCore.Mvc.FileContentResult in 74.52170000000001ms.
+2019-01-09 14:29:36.067 +08:00 [INF] Executing Microsoft.AspNetCore.Mvc.FileContentResult, sending file with download name '' ...
+2019-01-09 14:29:36.067 +08:00 [INF] Executed action Ft.ImageServer.Host.Controllers.DefaultHostImageController.GetImageWithoutOptionsAsync (Ft.ImageServer.Host) in 77.0699ms
+2019-01-09 14:29:36.067 +08:00 [INF] Request finished in 79.0884ms 200 image/jpeg
