@@ -4,6 +4,9 @@ using System.Text;
 
 namespace Ft.ImageServer.Core.HostConfigs
 {
+    /// <summary>
+    /// 基于MongoDB的Host配置
+    /// </summary>
     public class MongoDBHostConfig : IHostConfig
     {
         /// <summary>

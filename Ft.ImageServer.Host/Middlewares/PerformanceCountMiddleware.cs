@@ -5,17 +5,22 @@ using System.Threading.Tasks;
 
 namespace Ft.ImageServer.Host.Middlewares
 {
-    public class PerformanceCounter
+    /// <summary>
+    /// 性能测试Middleware
+    /// </summary>
+    public class PerformanceCountMiddleware
     {
         private readonly RequestDelegate _next;
-        private readonly ILogger<PerformanceCounter> _logger;
+        private readonly ILogger<PerformanceCountMiddleware> _logger;
 
-        public PerformanceCounter(RequestDelegate next, ILogger<PerformanceCounter> logger)
+        /// <inheritdoc/>
+        public PerformanceCountMiddleware(RequestDelegate next, ILogger<PerformanceCountMiddleware> logger)
         {
             _next = next;
             _logger = logger;
         }
 
+        /// <inheritdoc/>
         public async Task Invoke(HttpContext context)
         {
             var stopwatch = new Stopwatch();

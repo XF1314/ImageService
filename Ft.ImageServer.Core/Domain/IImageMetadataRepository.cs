@@ -8,6 +8,9 @@ using Volo.Abp.Domain.Repositories;
 
 namespace Ft.ImageServer.Core.Domain
 {
+    /// <summary>
+    /// 图片元数据仓储接口
+    /// </summary>
     public interface IImageMetadataRepository : IBasicRepository<ImageMetadata, ObjectId>
     {
         /// <summary>

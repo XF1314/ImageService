@@ -8,6 +8,9 @@ using System.Text;
 
 namespace Ft.ImageServer.Core.Utils
 {
+    /// <summary>
+    /// <see cref="Type"/>
+    /// </summary>
     public static class TypeExtensions
     {
         /// <summary>

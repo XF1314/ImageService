@@ -7,17 +7,22 @@ using System.Threading.Tasks;
 
 namespace Ft.ImageServer.Host.Middlewares
 {
-    public class RequestUrlNormalizer
+    /// <summary>
+    /// 请求Url准化Middleware
+    /// </summary>
+    public class RequestUrlNormalizeMiddleware
     {
         private readonly RequestDelegate _next;
-        private readonly ILogger<RequestUrlNormalizer> _logger;
+        private readonly ILogger<RequestUrlNormalizeMiddleware> _logger;
 
-        public RequestUrlNormalizer(RequestDelegate next, ILogger<RequestUrlNormalizer> logger)
+        /// <inheritdoc/>
+        public RequestUrlNormalizeMiddleware(RequestDelegate next, ILogger<RequestUrlNormalizeMiddleware> logger)
         {
             _next = next;
             _logger = logger;
         }
 
+        /// <inheritdoc/>
         public async Task Invoke(HttpContext context)
         {
             string url = context.Request.Path.Value;

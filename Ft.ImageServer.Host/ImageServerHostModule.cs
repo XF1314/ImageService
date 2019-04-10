@@ -27,10 +27,14 @@ using Volo.Abp.Uow;
 
 namespace Ft.ImageServer.Host
 {
+    /// <summary>
+    /// 图片服务Host模块
+    /// </summary>
     [DependsOn(typeof(ImageServerCoreModule), typeof(ImageServerServiceModule),
         typeof(AbpAspNetCoreModule), typeof(AbpGuidsModule), typeof(AbpUnitOfWorkModule), typeof(AbpAutofacModule))]
     public class ImageServerHostModule : AbpModule
     {
+        /// <inheritdoc/>
         public override void ConfigureServices(ServiceConfigurationContext context)
         {
             var configurationRoot = context.Services.BuildConfiguration();
@@ -64,7 +68,7 @@ namespace Ft.ImageServer.Host
             });
         }
 
-
+        /// <inheritdoc/>
         public override void OnApplicationInitialization(ApplicationInitializationContext context)
         {
             var app = context.GetApplicationBuilder();

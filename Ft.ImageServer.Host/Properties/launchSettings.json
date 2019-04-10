@@ -1,18 +1,20 @@
 ﻿{
   "$schema": "http://json.schemastore.org/launchsettings.json",
   "iisSettings": {
-    "windowsAuthentication": false, 
-    "anonymousAuthentication": true, 
+    "windowsAuthentication": false, //启用Windows身份验证
+    "anonymousAuthentication": true, //启用匿名身份验证
     "iisExpress": {
-      "applicationUrl": "http://localhost:27293",
-      "sslPort": 44351
+      "applicationUrl": "http://localhost:27293", //应用启动的Url路径。
+      "sslPort": 44351 //启用SSL的端口
     }
   },
   "profiles": {
     "IIS Express": {
       "commandName": "IISExpress",
-      "launchBrowser": true,
-      "launchUrl": "Home/Index",
+      "commandLineArgs": "", //传递命令的参数
+      "workingDirectory": "", //设置命令的工作目录
+      "launchBrowser": true, //是否在浏览器中启动
+      "launchUrl": "Home/Index", //在浏览器中启动的相对Url
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
@@ -20,8 +22,8 @@
     "Ft.ImageServer.Host": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "HomeIndex",
-      "applicationUrl": "https://localhost:5001;http://localhost:5000",
+      "launchUrl": "Home/Index",
+      "applicationUrl": "http://localhost:5000",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }

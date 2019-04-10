@@ -5,6 +5,9 @@ using System.Text;
 
 namespace Ft.ImageServer.Core.HostConfigs
 {
+    /// <summary>
+    /// Host类型
+    /// </summary>
     public enum HostType : byte
     {
         /// <summary>

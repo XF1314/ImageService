@@ -8,9 +8,15 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Ft.ImageServer.Host.Controllers
 {
+    /// <summary>
+    /// Home
+    /// </summary>
     [AllowAnonymous, ApiExplorerSettings(IgnoreApi = true)]
     public class HomeController : ControllerBase
     {
+        /// <summary>
+        /// Index
+        /// </summary>
         public ActionResult Index()
         {
             return Redirect("/swagger");

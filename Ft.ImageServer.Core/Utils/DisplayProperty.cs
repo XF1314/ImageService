@@ -4,6 +4,9 @@ using System.Text;
 
 namespace Ft.ImageServer.Core.Utils
 {
+    /// <summary>
+    /// <see cref="MethodInfo"/>
+    /// </summary>
     public enum DisplayProperty
     {
         /// <summary>

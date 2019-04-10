@@ -5,6 +5,9 @@ using System.Text;
 
 namespace Ft.ImageServer.Core.Result
 {
+    /// <summary>
+    /// 返回结果状态
+    /// </summary>
     public enum ResultCode
     {
         /// <summary>

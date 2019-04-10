@@ -4,8 +4,17 @@ using System.Text;
 
 namespace Ft.ImageServer.Core.Extensions
 {
-    public static class ServiceProviderExtension
+    /// <summary>
+    /// <see cref="IServiceProvider"/>
+    /// </summary>
+    public static class ServiceProviderExtensions
     {
+        /// <summary>
+        /// 基于类型获取service 实例
+        /// </summary>
+        /// <typeparam name="T">实例类型</typeparam>
+        /// <param name="serviceProvider"><see cref="IServiceProvider"/></param>
+        /// <returns></returns>
         public static T GetService<T>(this IServiceProvider serviceProvider) where T : class
         {
             var serviceType = typeof(T);
@@ -17,5 +26,6 @@ namespace Ft.ImageServer.Core.Extensions
                 return (T)serviceProvider.GetService(serviceType);
             }
         }
+
     }
 }
