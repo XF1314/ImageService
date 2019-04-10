@@ -8,8 +8,12 @@ using System.Threading.Tasks;
 
 namespace Ft.ImageServer.Host.RouteConstraints
 {
+    /// <summary>
+    /// GridFsReoute约束
+    /// </summary>
     public class GridFsReouteConstraint : IRouteConstraint
     {
+        /// <inheritdoc/>
         public bool Match(HttpContext httpContext, IRouter route, string routeKey, RouteValueDictionary values, RouteDirection routeDirection)
         {
             var value = values[routeKey] as string??string.Empty;

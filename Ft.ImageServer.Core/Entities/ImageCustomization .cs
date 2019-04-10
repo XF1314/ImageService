@@ -7,6 +7,9 @@ using Volo.Abp.Domain.Entities;
 
 namespace Ft.ImageServer.Core.Entities
 {
+    /// <summary>
+    /// 图片自定义参数
+    /// </summary>
     public class ImageCustomization
     {
         [BsonElement("Hash")]

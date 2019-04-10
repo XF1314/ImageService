@@ -4,6 +4,9 @@ using System.Text;
 
 namespace Ft.ImageServer.Core.Result
 {
+    /// <summary>
+    /// 返回结果
+    /// </summary>
     public interface IResult
     {
         /// <summary>

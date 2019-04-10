@@ -6,6 +6,9 @@ using System.Text;
 
 namespace Ft.ImageServer.Core.Utils
 {
+    /// <summary>
+    /// <see cref="Enum"/>
+    /// </summary>
     public static class EnumExtensions
     {
 

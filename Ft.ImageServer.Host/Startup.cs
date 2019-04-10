@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Castle.Core.Configuration;
 using Ft.ImageServer.Core.HostConfigs;
 using Ft.ImageServer.Host.Filters;
 using Microsoft.AspNetCore.Builder;
@@ -17,33 +16,38 @@ using Volo.Abp;
 
 namespace Ft.ImageServer.Host
 {
+    /// <inheritdoc/>
     public class Startup
     {
-        public IConfigurationRoot ConfigurationRoot { get; }
+        private readonly IConfigurationRoot _appSettings;
 
-        public Startup(IHostingEnvironment env)
+        /// <inheritdoc/>
+        public Startup(IHostingEnvironment hostingEnvironment)
         {
-            ConfigurationRoot = new ConfigurationBuilder()
-                .SetBasePath(env.ContentRootPath)
+            _appSettings = new ConfigurationBuilder()
+                .SetBasePath(hostingEnvironment.ContentRootPath)
                 .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
-                .AddJsonFile($"appsettings.{env.EnvironmentName}.json", optional: true)
+                .AddJsonFile($"appsettings.{hostingEnvironment.EnvironmentName}.json", optional: true)
                 .AddEnvironmentVariables()
                 .Build();
+            Console.WriteLine(hostingEnvironment.EnvironmentName);
         }
 
-        public IServiceProvider ConfigureServices(IServiceCollection services)
+        /// <inheritdoc/>
+        public IServiceProvider ConfigureServices(IServiceCollection serviceCollection)
         {
-            services.Configure<List<MongoDBHostConfig>>(ConfigurationRoot.GetSection("MongoDBHosts"));
-            services.Configure<List<WebHostConfig>>(ConfigurationRoot.GetSection("WebHosts"));
-            services.AddMvc(options => options.Filters.Add<ModelValidationFilter>());
-            services.AddApplication<ImageServerHostModule>(options => options.UseAutofac());
+            serviceCollection.Configure<List<MongoDBHostConfig>>(_appSettings.GetSection("MongoDBHosts"));
+            serviceCollection.Configure<List<WebHostConfig>>(_appSettings.GetSection("WebHosts"));
+            serviceCollection.AddMvc(options => options.Filters.Add<ModelValidationFilter>());
+            serviceCollection.AddApplication<ImageServerHostModule>(options => options.UseAutofac());
 
-            return services.BuildServiceProviderFromFactory();
+            return serviceCollection.BuildServiceProviderFromFactory();
         }
 
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+        /// <inheritdoc/>
+        public void Configure(IApplicationBuilder applicationBuilder, IHostingEnvironment hostingEnvironment,IConfiguration configuration)
         {
-            app.InitializeApplication();
+            applicationBuilder.InitializeApplication();
         }
     }
 }

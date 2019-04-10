@@ -7,6 +7,9 @@ using Volo.Abp.Domain.Entities;
 
 namespace Ft.ImageServer.Core.Entities
 {
+    /// <summary>
+    /// 图片元数据
+    /// </summary>
     [BsonIgnoreExtraElements]
     public class ImageMetadata : Entity<ObjectId>
     {

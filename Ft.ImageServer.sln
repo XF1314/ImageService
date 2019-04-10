@@ -7,13 +7,16 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ft.ImageServer.Host", "Ft.I
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2D5CEFCB-37D9-4B2C-BDED-2E95D76CEA0C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ft.ImageServer.Core", "Ft.ImageServer.Core\Ft.ImageServer.Core.csproj", "{E096F15E-816B-4E0B-A0F5-C792A3888A8D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ft.ImageServer.Core", "Ft.ImageServer.Core\Ft.ImageServer.Core.csproj", "{E096F15E-816B-4E0B-A0F5-C792A3888A8D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ft.ImageServer.MongoDB", "Ft.ImageServer.MongoDB\Ft.ImageServer.MongoDB.csproj", "{5DCC49F3-1DC4-464B-95C0-E0F91FC063C4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ft.ImageServer.MongoDB", "Ft.ImageServer.MongoDB\Ft.ImageServer.MongoDB.csproj", "{5DCC49F3-1DC4-464B-95C0-E0F91FC063C4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ft.ImageServer.Application", "Ft.ImageServer.Application\Ft.ImageServer.Application.csproj", "{72463556-59E4-4765-98CC-23D057770746}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ft.ImageServer.Application", "Ft.ImageServer.Application\Ft.ImageServer.Application.csproj", "{72463556-59E4-4765-98CC-23D057770746}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D08D5217-2D7E-4F88-9364-CF24495DAA1B}"
+	ProjectSection(SolutionItems) = preProject
+		SolutionItems\StartupCommand.png = SolutionItems\StartupCommand.png
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

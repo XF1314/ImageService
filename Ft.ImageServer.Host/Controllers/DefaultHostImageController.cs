@@ -185,11 +185,10 @@ namespace Ft.ImageServer.Host.Controllers
         /// <summary>
         /// 保存照片到MongoDB
         /// </summary>
-        /// <param name="host">host name</param>
         /// <param name="contentBasedImageInput">照片信息</param>
         /// <returns></returns>
         [HttpPost("/contentbased")]
-        public async Task<Result<MongoDBImageSaveOutput>> SaveImageByContentAsync(string host, ContentBasedImageInput contentBasedImageInput)
+        public async Task<Result<MongoDBImageSaveOutput>> SaveImageByContentAsync( ContentBasedImageInput contentBasedImageInput)
         {
             return await _imageService.SaveImageToMongoDBAsync(hostName: MongoDBImageProvider.DefaultHostName, contentBasedImageInput: contentBasedImageInput);
         }
@@ -197,11 +196,10 @@ namespace Ft.ImageServer.Host.Controllers
         /// <summary>
         /// 保存照片到MongoDB
         /// </summary>
-        /// <param name="host">host name</param>
         /// <param name="uriBasedImageInput">照片信息</param>
         /// <returns></returns>
         [HttpPost("/uribased")]
-        public async Task<Result<MongoDBImageSaveOutput>> SaveImageByUriAsync(string host, UriBasedImageInput uriBasedImageInput)
+        public async Task<Result<MongoDBImageSaveOutput>> SaveImageByUriAsync( UriBasedImageInput uriBasedImageInput)
         {
             return await _imageService.SaveImageToMongoDBAsync(hostName: MongoDBImageProvider.DefaultHostName, uriBasedImageInput: uriBasedImageInput);
         }

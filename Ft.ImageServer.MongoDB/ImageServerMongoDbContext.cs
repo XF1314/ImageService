@@ -8,6 +8,9 @@ using Volo.Abp.MongoDB;
 
 namespace Ft.ImageServer.MongoDB
 {
+    /// <summary>
+    /// 图片服务DbContext
+    /// </summary>
     [ConnectionStringName("ThemeParkImageServer")]
     public class ImageServerMongoDbContext: AbpMongoDbContext, IImageServerMongoDbContext
     {

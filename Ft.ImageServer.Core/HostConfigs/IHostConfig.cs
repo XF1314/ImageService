@@ -4,6 +4,9 @@ using System.Text;
 
 namespace Ft.ImageServer.Core.HostConfigs
 {
+    /// <summary>
+    /// Host配置接口
+    /// </summary>
     public interface IHostConfig
     {
         /// <summary>
