@@ -24,13 +24,13 @@ namespace Ft.ImageServer.Host
         /// <inheritdoc/>
         public Startup(IHostingEnvironment hostingEnvironment)
         {
+            //Console.WriteLine(hostingEnvironment.EnvironmentName);
             _appSettings = new ConfigurationBuilder()
                 .SetBasePath(hostingEnvironment.ContentRootPath)
                 .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
                 .AddJsonFile($"appsettings.{hostingEnvironment.EnvironmentName}.json", optional: true)
                 .AddEnvironmentVariables()
                 .Build();
-            Console.WriteLine(hostingEnvironment.EnvironmentName);
         }
 
         /// <inheritdoc/>
