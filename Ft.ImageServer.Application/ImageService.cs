@@ -210,7 +210,7 @@ namespace Ft.ImageServer.Service
             }
         }
 
-        public async Task<Result<MongoDBImageSaveOutput>> SaveImageToMongoDBAsync(string hostName, ContentBasedImageInput contentBasedImageInput)
+        public async Task<Result<MongoDBImageSaveOutput>> SaveImageToMongoDBAsync(string hostName, ContentBasedImageSaveInput contentBasedImageInput)
         {
             var hostConfig = _mongoDBHostConfigs.FirstOrDefault(x => x.HostName.Equals(hostName, StringComparison.OrdinalIgnoreCase));
             if (hostConfig == null)
@@ -262,14 +262,14 @@ namespace Ft.ImageServer.Service
             }
         }
 
-        public async Task<Result<MongoDBImageSaveOutput>> SaveImageToMongoDBAsync(string hostName, UriBasedImageInput uriBasedImageInput)
+        public async Task<Result<MongoDBImageSaveOutput>> SaveImageToMongoDBAsync(string hostName, UriBasedImageSaveInput uriBasedImageInput)
         {
             var imageBytes = (await GetImageBytesFromWebAsync(uriBasedImageInput.Uri)).Data;
             if (imageBytes == null)
                 return Result.FromError<MongoDBImageSaveOutput>($"无法从地址:{uriBasedImageInput.Uri}获取到图片数据请确认");
             else
             {
-                var contentBasedImageInput = new ContentBasedImageInput
+                var contentBasedImageInput = new ContentBasedImageSaveInput
                 {
                     Title = uriBasedImageInput.Title,
                     Description = uriBasedImageInput.Description,

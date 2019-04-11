@@ -6,7 +6,10 @@ using System.Text;
 
 namespace Ft.ImageServer.Application.Dtos
 {
-    public class UriBasedImageInput : ImageInput, IValidatableObject
+    /// <summary>
+    /// 基于Uri的图片保存Input
+    /// </summary>
+    public class UriBasedImageSaveInput : ImageSaveInput, IValidatableObject
     {
         /// <summary>
         /// 图片Uri
@@ -16,7 +19,7 @@ namespace Ft.ImageServer.Application.Dtos
 
         public IEnumerable<ValidationResult> Validate(ValidationContext validationContext)
         {
-            var imageInput = validationContext.ObjectInstance as UriBasedImageInput;
+            var imageInput = validationContext.ObjectInstance as UriBasedImageSaveInput;
             if (string.IsNullOrWhiteSpace(imageInput.Title))
                 yield return new ValidationResult("请提供图片Title");
             else if (string.IsNullOrWhiteSpace(imageInput.Uri))

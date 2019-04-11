@@ -15,12 +15,13 @@ namespace Ft.ImageServer.Host.Controllers
     /// <summary>
     /// 图片Metadata
     /// </summary>
-    [AllowAnonymous, ApiController, Route("Api/[controller]")]
+    [AllowAnonymous, ApiController]
     public class ImageMetadataController : AbpController
     {
         private readonly IImageService _imageService;
         private readonly ILogger<ImageMetadataController> _logger;
 
+        /// <inheritdoc/>
         public ImageMetadataController(IImageService imageService,ILogger<ImageMetadataController> logger)
         {
             _logger = logger;
@@ -33,7 +34,7 @@ namespace Ft.ImageServer.Host.Controllers
         /// </summary>
         /// <param name="id">图片Id</param>
         /// <returns></returns>
-        [HttpGet("/m/{id:gridfs}")]
+        [HttpGet("/metadata/{id:gridfs}")]
         public async Task<Result<ImageMetadata>> GetImageMetadataAsync( string id)
         {
             return await _imageService.GetImageMetadataAsync(id);

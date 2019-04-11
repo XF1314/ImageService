@@ -6,7 +6,10 @@ using System.Text;
 
 namespace Ft.ImageServer.Application.Dtos
 {
-    public class ContentBasedImageInput : ImageInput, IValidatableObject
+    /// <summary>
+    /// 基于内容的图片保存Input
+    /// </summary>
+    public class ContentBasedImageSaveInput : ImageSaveInput, IValidatableObject
     {
         /// <summary>
         /// 图片Base64字串
@@ -22,7 +25,7 @@ namespace Ft.ImageServer.Application.Dtos
 
         public IEnumerable<ValidationResult> Validate(ValidationContext validationContext)
         {
-            var imageInput = validationContext.ObjectInstance as ContentBasedImageInput;
+            var imageInput = validationContext.ObjectInstance as ContentBasedImageSaveInput;
             if (string.IsNullOrWhiteSpace(imageInput.Title))
                 yield return new ValidationResult("请提供图片Title");
             else if (string.IsNullOrWhiteSpace(imageInput.Base64String))

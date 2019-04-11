@@ -29,7 +29,7 @@ namespace Ft.ImageServer.Core.Result
     public interface IResult<TData> : IResult
     {
         /// <summary>
-        /// 结果状态码
+        /// 结果数据
         /// </summary>
         TData Data { get; set; }
     }

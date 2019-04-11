@@ -74,7 +74,7 @@ namespace Ft.ImageServer.Service
         /// <param name="hostName">host name</param>
         /// <param name="contentBasedImageInput">图片信息</param>
         /// <returns></returns>
-        Task<Result<MongoDBImageSaveOutput>> SaveImageToMongoDBAsync(string hostName, ContentBasedImageInput contentBasedImageInput);
+        Task<Result<MongoDBImageSaveOutput>> SaveImageToMongoDBAsync(string hostName, ContentBasedImageSaveInput contentBasedImageInput);
 
         /// <summary>
         /// 保存图片到MongoDB
@@ -82,7 +82,7 @@ namespace Ft.ImageServer.Service
         /// <param name="hostName">host name</param>
         /// <param name="uriBasedImageInput">图片信息</param>
         /// <returns></returns>
-        Task<Result<MongoDBImageSaveOutput>> SaveImageToMongoDBAsync(string hostName, UriBasedImageInput uriBasedImageInput);
+        Task<Result<MongoDBImageSaveOutput>> SaveImageToMongoDBAsync(string hostName, UriBasedImageSaveInput uriBasedImageInput);
 
         /// <summary>
         /// 获取图片Metadata（只对MongoDB方式存储的照片有效）

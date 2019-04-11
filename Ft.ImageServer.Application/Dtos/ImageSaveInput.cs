@@ -5,7 +5,10 @@ using System.Text;
 
 namespace Ft.ImageServer.Application.Dtos
 {
-    public abstract class ImageInput
+    /// <summary>
+    /// 图片保存Input
+    /// </summary>
+    public abstract class ImageSaveInput
     {
         /// <summary>
         /// 图片Title
